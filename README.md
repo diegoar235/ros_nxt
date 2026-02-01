@@ -26,13 +26,13 @@ moveit+nxt
 # SMT 32
 ## Configuracion de micro-ros:
 - Pasos para configurar la instalacion de microros
-  -1 Ir a la carpeta donde está el archivo .ioc: en el caso que tenia es "cd /home/diego/Documentos/Comm2/microros_f411_cdc"
-  -2 Esto descarga el builder preparado para ROS 2 Humble. "docker pull microros/micro_ros_static_library_builder:humble" (para humble, importante!)
-  -3 Limpiá cualquier intento previo (para no mezclar salidas) -> Esto no o hice, pero habria que ver si es necesario, al menos no lo hice
-    - rm -rf micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros
-    - rm -rf micro_ros_stm32cubemx_utils/microros_static_library_ide/build
-    - rm -rf micro_ros_stm32cubemx_utils/microros_static_library_ide/install
-    - rm -rf micro_ros_stm32cubemx_utils/microros_static_library_ide/log
+    - Ir a la carpeta donde está el archivo .ioc: en el caso que tenia es "cd /home/diego/Documentos/Comm2/microros_f411_cdc"
+    - Esto descarga el builder preparado para ROS 2 Humble. "docker pull microros/micro_ros_static_library_builder:humble" (para humble, importante!)
+    - Limpiá cualquier intento previo (para no mezclar salidas) -> Esto no o hice, pero habria que ver si es necesario, al menos no lo hice
+        - rm -rf micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros
+        - rm -rf micro_ros_stm32cubemx_utils/microros_static_library_ide/build
+        - rm -rf micro_ros_stm32cubemx_utils/microros_static_library_ide/install
+        - rm -rf micro_ros_stm32cubemx_utils/microros_static_library_ide/log
   -4 docker run --rm \
     -v "$PWD":/project \
     -e MICROROS_LIBRARY_FOLDER=micro_ros_stm32cubemx_utils/microros_static_library_ide \
@@ -50,4 +50,7 @@ moveit+nxt
         microros_time.c
         microros_allocators.c
         custom_memory_manager.c
+
+## Configuracion de timmers:
+- 
 

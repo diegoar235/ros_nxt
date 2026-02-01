@@ -12,7 +12,7 @@ moveit+nxt
 
 ### Pines salida servomotor 
 | PIN del cable original | Color cable|         Funcion             | Señal/Polaridad | forma de señal |
-|------------------------|------------------------------------------|-----------------|----------------|
+|------------------------|------------|-----------------------------|-----------------|----------------|
 |     1                  |  Blanco    |  Motor Power Supply         |     DC +/- 9V   |       DC       |
 |     2                  |  Negro     |  Motor Power Supply         |     DC +/- 9V   |       DC       |
 |     3                  |  Rojo      |  Power Detector de rotacion |     GND         |       DC       | 

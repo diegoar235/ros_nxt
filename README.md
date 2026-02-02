@@ -27,6 +27,7 @@ moveit+nxt
 ## Configuracion de micro-ros:
 - Pasos para configurar la instalacion de microros
     - Ir a la carpeta donde está el archivo .ioc: en el caso que tenia es "cd /home/diego/Documentos/Comm2/microros_f411_cdc"
+    - Ejecutar: **git clone https://github.com/micro-ROS/micro_ros_stm32cubemx_utils.git**, clona el proyecto micro_ros_stm32cubemx_utils 
     - Esto descarga el builder preparado para ROS 2 Humble. "docker pull microros/micro_ros_static_library_builder:humble" (para humble, importante!)
     - Limpiá cualquier intento previo (para no mezclar salidas) -> Esto no o hice, pero habria que ver si es necesario, al menos no lo hice
         - rm -rf micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros
@@ -44,9 +45,9 @@ moveit+nxt
     libmicroros.a
     include/
 - Configurar CubeIDE para que compile con micro-ROS:
-    1-Include path (headers): Project → Properties → C/C++ Build → Settings → Tool Settings → MCU GCC Compiler → Includes (/home/diego/Documentos/Comm2/microros_f411_cdc/micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros/include)  lo que finalmente se tiene que agregar es la carpeta include
-    2-Linker: ruta de librería (-L) y nombre (-l): "/home/diego/Documentos/Comm2/microros_f411_cdc/micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros"
-    3-Libraries (-l): microros
+    1-Include path (headers): Project → Properties → C/C++ Build → Settings → Tool Settings → MCU GCC Compiler → Includes **/home/diego/Documentos/Comm2/microros_f411_cdc/micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros/include**  lo que finalmente se tiene que agregar es la carpeta include
+    2-Linker: ruta de librería (-L): **/home/diego/Documentos/Comm2/microros_f411_cdc/micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros**
+    3-Libraries (-l): **microros**
     4-Agregar los “extra sources” que micro-ROS necesita: desde micro_ros_stm32cubemx_utils/extra_sources/ agregar 
         microros_time.c
         microros_allocators.c

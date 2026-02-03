@@ -53,6 +53,12 @@ moveit+nxt
         microros_allocators.c
         custom_memory_manager.c
 
+  dmesg | tail -n 30
+ls -l /dev/ttyACM0
+docker run -it --rm --net=host --privileged -v /dev:/dev \
+  microros/micro-ros-agent:humble \
+  serial --dev /dev/ttyACM0 -v6
+
 ## Configuracion de timmers:
 - Configuración de PWM (TIM 5)
     - Pines usados en ambas STM: TIM5_CH1 = PA0, TIM5_CH2 = PA1, TIM5_CH3 = PA2.

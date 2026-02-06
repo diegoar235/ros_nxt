@@ -35,11 +35,11 @@ moveit+nxt
         - rm -rf micro_ros_stm32cubemx_utils/microros_static_library_ide/install
         - rm -rf micro_ros_stm32cubemx_utils/microros_static_library_ide/log
 - Executar docker:
-  - dmesg | tail -n 30
-  - ls -l /dev/ttyACM0
-  - docker run -it --rm --net=host --privileged -v /dev:/dev
-        microros/micro-ros-agent:humble
-        serial --dev /dev/ttyACM0 -v6
+    ""docker run --rm \
+      -v "$PWD":/project \
+      -e MICROROS_LIBRARY_FOLDER=micro_ros_stm32cubemx_utils/microros_static_library_ide \
+      microros/micro_ros_static_library_builder:humble""
+
 - con el paso anterior, se crea:
     ls -la micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros
     Y adentro deberías ver:
@@ -71,5 +71,9 @@ moveit+nxt
     - IC1Filter=IC2Filter=4
     - HAL_TIM_Encoder_Start(..., TIM_CHANNEL_ALL)
 
-  
+  - sudo dmesg | tail -n 30
+  - ls -l /dev/ttyACM0
+  - docker run -it --rm --net=host --privileged -v /dev:/dev
+        microros/micro-ros-agent:humble
+        serial --dev /dev/ttyACM0 -v6
 

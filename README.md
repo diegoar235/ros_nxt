@@ -55,9 +55,10 @@ moveit+nxt
 
   dmesg | tail -n 30
 ls -l /dev/ttyACM0
-docker run -it --rm --net=host --privileged -v /dev:/dev \
-  microros/micro-ros-agent:humble \
-  serial --dev /dev/ttyACM0 -v6
+
+docker run -it --rm --net=host --privileged -v /dev:/dev
+microros/micro-ros-agent:humble
+serial --dev /dev/ttyACM0 -v6
 
 ## Configuracion de timmers:
 - Configuración de PWM (TIM 5)

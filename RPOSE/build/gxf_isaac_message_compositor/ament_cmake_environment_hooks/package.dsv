@@ -1,0 +1,4 @@
+source;share/gxf_isaac_message_compositor/local_setup.bash
+source;share/gxf_isaac_message_compositor/local_setup.dsv
+source;share/gxf_isaac_message_compositor/local_setup.sh
+source;share/gxf_isaac_message_compositor/local_setup.zsh

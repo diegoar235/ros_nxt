@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-16de0e307e8fa5797df4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gxf_isaac_messages",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_version_info_target_gxf_isaac_messages::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_version_info_target_gxf_isaac_messages-Release-b18c094a72ef14e3d7e4.json",
+					"name" : "generate_version_info_target_gxf_isaac_messages",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gxf_isaac_messages_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gxf_isaac_messages_uninstall-Release-a6ea0eb1fb363da2a395.json",
+					"name" : "gxf_isaac_messages_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-b059085b57fa5cb23eed.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/isaac_ros-dev/build/gxf_isaac_messages",
+		"source" : "/workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_gxf_extensions/gxf_isaac_messages"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

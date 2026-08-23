@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d1cb2816f8cf1463d684.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "isaac_ros_image_proc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "alpha_blend_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alpha_blend_node-Release-210829ff5e7e8c38284a.json",
+					"name" : "alpha_blend_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crop_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crop_node-Release-e8259f5bb1c7d40a49f9.json",
+					"name" : "crop_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flip_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flip_node-Release-0db1defc60c204137ca3.json",
+					"name" : "flip_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_version_info_target_isaac_ros_image_proc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_version_info_target_isaac_ros_image_proc-Release-26e512895b3c974acc30.json",
+					"name" : "generate_version_info_target_isaac_ros_image_proc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_format_converter_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_format_converter_node-Release-170f99c7c88b36b8e8a8.json",
+					"name" : "image_format_converter_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_normalize_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_normalize_node-Release-63a2a66443ffe46a1b54.json",
+					"name" : "image_normalize_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isaac_ros_image_proc_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isaac_ros_image_proc_uninstall-Release-a8f00f3ebcdf3493082a.json",
+					"name" : "isaac_ros_image_proc_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pad_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pad_node-Release-03625bc8acc67a836680.json",
+					"name" : "pad_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rectify_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rectify_node-Release-13026d744439d3d80d4d.json",
+					"name" : "rectify_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resize_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resize_node-Release-1b58875388f3dc66c0a1.json",
+					"name" : "resize_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-ce24049a3981ae251fac.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/isaac_ros-dev/build/isaac_ros_image_proc",
+		"source" : "/workspaces/isaac_ros-dev/src/isaac_ros_image_pipeline/isaac_ros_image_proc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

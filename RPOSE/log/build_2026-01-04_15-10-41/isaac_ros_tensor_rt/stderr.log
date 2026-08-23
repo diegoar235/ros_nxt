@@ -1,0 +1,20 @@
+[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/isaac_ros_tensor_rt` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[01m[K/workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_tensor_rt/src/tensor_rt_node.cpp:[m[K In function ‘[01m[Kbool nvidia::isaac_ros::dnn_inference::{anonymous}::readTensorShapesFromOnnx(const string&, size_t, std::vector<nvinfer1::Dims64>&, std::vector<nvinfer1::DataType>&)[m[K’:
+[01m[K/workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_tensor_rt/src/tensor_rt_node.cpp:162:76:[m[K [01;35m[Kwarning: [m[K‘[01m[Knvinfer1::NetworkDefinitionCreationFlag::kEXPLICIT_BATCH[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  162 |       1U << static_cast<uint32_t>(nvinfer1::NetworkDefinitionCreationFlag::[01;35m[KkEXPLICIT_BATCH[m[K)));
+      |                                                                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInferPlugin.h:21[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_tensor_rt/include/isaac_ros_tensor_rt/tensor_rt_node.hpp:26[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_tensor_rt/src/tensor_rt_node.cpp:18[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:9614:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ 9614 |     [01;36m[KkEXPLICIT_BATCH[m[K TRT_DEPRECATED_ENUM = 0,
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_tensor_rt/src/tensor_rt_node.cpp:162:76:[m[K [01;35m[Kwarning: [m[K‘[01m[Knvinfer1::NetworkDefinitionCreationFlag::kEXPLICIT_BATCH[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  162 |       1U << static_cast<uint32_t>(nvinfer1::NetworkDefinitionCreationFlag::[01;35m[KkEXPLICIT_BATCH[m[K)));
+      |                                                                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInferPlugin.h:21[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_tensor_rt/include/isaac_ros_tensor_rt/tensor_rt_node.hpp:26[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_tensor_rt/src/tensor_rt_node.cpp:18[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:9614:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ 9614 |     [01;36m[KkEXPLICIT_BATCH[m[K TRT_DEPRECATED_ENUM = 0,
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K

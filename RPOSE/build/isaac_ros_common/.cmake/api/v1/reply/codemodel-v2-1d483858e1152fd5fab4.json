@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-8c968e29c02f7fae890f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "isaac_ros_common",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_isaac_ros_common_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_isaac_ros_common_egg-Release-48873541d997cf573f77.json",
+					"name" : "ament_cmake_python_build_isaac_ros_common_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_isaac_ros_common::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_isaac_ros_common-Release-e057a2de2313ce7918be.json",
+					"name" : "ament_cmake_python_symlink_isaac_ros_common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_version_info_target_isaac_ros_common::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_version_info_target_isaac_ros_common-Release-1435bdaa2a1d1888fefe.json",
+					"name" : "generate_version_info_target_isaac_ros_common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isaac_ros_common::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isaac_ros_common-Release-9c064cc4874f9025b81c.json",
+					"name" : "isaac_ros_common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isaac_ros_common_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isaac_ros_common_uninstall-Release-d8c23ee47c7e6cb556a4.json",
+					"name" : "isaac_ros_common_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-02c7982e4ccbb352ec71.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/isaac_ros-dev/build/isaac_ros_common",
+		"source" : "/workspaces/isaac_ros-dev/src/isaac_ros_common/isaac_ros_common"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

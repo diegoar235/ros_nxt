@@ -1,0 +1,11 @@
+source;share/gxf_isaac_tensor_rt/hook/cmake_prefix_path.ps1
+source;share/gxf_isaac_tensor_rt/hook/cmake_prefix_path.dsv
+source;share/gxf_isaac_tensor_rt/hook/cmake_prefix_path.sh
+source;share/gxf_isaac_tensor_rt/hook/ld_library_path_lib.ps1
+source;share/gxf_isaac_tensor_rt/hook/ld_library_path_lib.dsv
+source;share/gxf_isaac_tensor_rt/hook/ld_library_path_lib.sh
+source;share/gxf_isaac_tensor_rt/local_setup.bash
+source;share/gxf_isaac_tensor_rt/local_setup.dsv
+source;share/gxf_isaac_tensor_rt/local_setup.ps1
+source;share/gxf_isaac_tensor_rt/local_setup.sh
+source;share/gxf_isaac_tensor_rt/local_setup.zsh

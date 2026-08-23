@@ -1,0 +1,10 @@
+{
+  "joints": {
+    "joint1": { "gear_ratio": 5},
+    "joint2": { "gear_ratio": 14.01 },
+    "joint3": { "gear_ratio": 10.02 },
+    "joint4": { "gear_ratio": 7.5 },
+    "joint5": { "gear_ratio": 7.5 },
+    "joint6": { "gear_ratio": 7.0 }
+  }
+}

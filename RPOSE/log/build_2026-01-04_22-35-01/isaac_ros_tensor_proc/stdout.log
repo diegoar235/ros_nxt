@@ -1,0 +1,102 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- The CUDA compiler identification is NVIDIA 12.6.20
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Loading isaac_ros_common extras
+-- CMAKE_BUILD_TYPE: Release
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found CUDA: /usr/local/cuda (found version "12.6") 
+-- CUDA architectures: 52
+-- Loading isaac_ros_common extras (modules)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Loading isaac_ros_gxf extras
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_tensor_proc
+[  9%] [34m[1mGenerating version information as YAML[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/interleaved_to_planar_node.dir/src/interleaved_to_planar_node.cpp.o[0m
+[ 18%] Built target generate_version_info_target_isaac_ros_tensor_proc
+[ 27%] [32m[1mLinking CXX shared library libinterleaved_to_planar_node.so[0m
+[ 27%] Built target interleaved_to_planar_node
+[ 36%] [32mBuilding CXX object CMakeFiles/reshape_node.dir/src/reshape_node.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libreshape_node.so[0m
+[ 45%] Built target reshape_node
+[ 54%] [32mBuilding CXX object CMakeFiles/image_to_tensor_node.dir/src/image_to_tensor_node.cpp.o[0m
+[ 63%] [32m[1mLinking CXX shared library libimage_to_tensor_node.so[0m
+[ 63%] Built target image_to_tensor_node
+[ 72%] [32mBuilding CXX object CMakeFiles/image_tensor_normalize_node.dir/src/image_tensor_normalize_node.cpp.o[0m
+[ 81%] [32m[1mLinking CXX shared library libimage_tensor_normalize_node.so[0m
+[ 81%] Built target image_tensor_normalize_node
+[ 90%] [32mBuilding CXX object CMakeFiles/normalize_node.dir/src/normalize_node.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libnormalize_node.so[0m
+[100%] Built target normalize_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/version_info.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/include/isaac_ros_tensor_proc/image_tensor_normalize_node.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/include/isaac_ros_tensor_proc/image_to_tensor_node.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/include/isaac_ros_tensor_proc/interleaved_to_planar_node.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/include/isaac_ros_tensor_proc/normalize_node.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/include/isaac_ros_tensor_proc/reshape_node.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/environment/library_path.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/environment/library_path.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/lib/libinterleaved_to_planar_node.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/lib/libreshape_node.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/lib/libimage_to_tensor_node.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/lib/libimage_tensor_normalize_node.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/lib/libnormalize_node.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/config/interleaved_to_planar_node.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/config/namespace_injector_rule_interleaved_to_planar.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/config/namespace_injector_rule_normalizer.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/config/namespace_injector_rule_reshaper.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/config/normalizer_node.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/config/reshape_node.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/ament_index/resource_index/package_run_dependencies/isaac_ros_tensor_proc
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/ament_index/resource_index/parent_prefix_path/isaac_ros_tensor_proc
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/environment/path.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/environment/path.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/local_setup.bash
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/local_setup.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/local_setup.zsh
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/local_setup.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/package.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/ament_index/resource_index/packages/isaac_ros_tensor_proc
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/ament_index/resource_index/rclcpp_components/isaac_ros_tensor_proc
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/cmake/isaac_ros_tensor_procConfig.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/cmake/isaac_ros_tensor_procConfig-version.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/share/isaac_ros_tensor_proc/package.xml

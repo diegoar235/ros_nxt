@@ -1,0 +1,3 @@
+source;share/gxf_isaac_message_compositor/environment/ament_prefix_path.sh
+source;share/gxf_isaac_message_compositor/environment/library_path.sh
+source;share/gxf_isaac_message_compositor/environment/path.sh

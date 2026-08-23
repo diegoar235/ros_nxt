@@ -1,0 +1,1 @@
+nvidia::isaac_ros::dnn_inference::TritonNode;lib/libtriton_node.so

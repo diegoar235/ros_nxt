@@ -1,0 +1,77 @@
+[0.014s] Invoking command in '/workspaces/isaac_ros-dev/build/gxf_isaac_tensor_rt': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_launch_utils:/workspaces/isaac_ros-dev/install/isaac_common_py:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_gems/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive/lib:/opt/hpcx/ucc/lib/:/opt/hpcx/ucx/lib/:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_gxf_extensions/gxf_isaac_tensor_rt -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt
+[0.067s] -- The C compiler identification is GNU 11.4.0
+[0.108s] -- The CXX compiler identification is GNU 11.4.0
+[0.113s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.183s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.183s] -- Detecting C compile features
+[0.184s] -- Detecting C compile features - done
+[0.186s] -- Detecting CXX compiler ABI info
+[0.253s] -- Detecting CXX compiler ABI info - done
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.259s] -- Detecting CXX compile features
+[0.259s] -- Detecting CXX compile features - done
+[0.262s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.761s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.809s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.911s] -- Loading isaac_ros_common extras
+[0.911s] -- CMAKE_BUILD_TYPE: Release
+[0.926s] -- Looking for pthread.h
+[0.996s] -- Looking for pthread.h - found
+[0.996s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.056s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.057s] -- Found Threads: TRUE  
+[1.071s] -- Found CUDA: /usr/local/cuda (found version "12.6") 
+[1.071s] -- CUDA architectures: 89;86;80;75;70
+[1.071s] -- Loading isaac_ros_common extras (modules)
+[1.116s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.122s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.131s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.161s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.215s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.219s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.310s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.340s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.389s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.448s] -- Loading isaac_ros_gxf extras
+[1.474s] -- Found CUDAToolkit: /usr/local/cuda/include (found version "12.6.20") 
+[1.526s] -- Found TENSORRT: /usr/include/x86_64-linux-gnu (found suitable version "10.3.0", minimum required is "10") 
+[1.585s] -- Configuring done
+[1.602s] -- Generating done
+[1.604s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/gxf_isaac_tensor_rt
+[1.612s] Invoked command in '/workspaces/isaac_ros-dev/build/gxf_isaac_tensor_rt' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_launch_utils:/workspaces/isaac_ros-dev/install/isaac_common_py:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_gems/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive/lib:/opt/hpcx/ucc/lib/:/opt/hpcx/ucx/lib/:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_gxf_extensions/gxf_isaac_tensor_rt -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt
+[1.614s] Invoking command in '/workspaces/isaac_ros-dev/build/gxf_isaac_tensor_rt': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_launch_utils:/workspaces/isaac_ros-dev/install/isaac_common_py:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_gems/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive/lib:/opt/hpcx/ucc/lib/:/opt/hpcx/ucx/lib/:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/gxf_isaac_tensor_rt -- -j16 -l16
+[1.663s] [ 25%] [34m[1mGenerating version information as YAML[0m
+[1.676s] [ 50%] [32mBuilding CXX object CMakeFiles/gxf_isaac_tensor_rt.dir/gxf/extensions/tensor_rt/tensor_rt_extension.cpp.o[0m
+[1.677s] [ 75%] [32mBuilding CXX object CMakeFiles/gxf_isaac_tensor_rt.dir/gxf/extensions/tensor_rt/tensor_rt_inference.cpp.o[0m
+[5.179s] [ 75%] Built target generate_version_info_target_gxf_isaac_tensor_rt
+[7.677s] [100%] [32m[1mLinking CXX shared library libgxf_isaac_tensor_rt.so[0m
+[7.802s] [100%] Built target gxf_isaac_tensor_rt
+[7.815s] Invoked command in '/workspaces/isaac_ros-dev/build/gxf_isaac_tensor_rt' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_launch_utils:/workspaces/isaac_ros-dev/install/isaac_common_py:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_gems/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive/lib:/opt/hpcx/ucc/lib/:/opt/hpcx/ucx/lib/:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/gxf_isaac_tensor_rt -- -j16 -l16
+[7.817s] Invoking command in '/workspaces/isaac_ros-dev/build/gxf_isaac_tensor_rt': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_launch_utils:/workspaces/isaac_ros-dev/install/isaac_common_py:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_gems/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive/lib:/opt/hpcx/ucc/lib/:/opt/hpcx/ucx/lib/:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/gxf_isaac_tensor_rt
+[7.822s] -- Install configuration: "Release"
+[7.822s] -- Execute custom install script
+[7.823s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/gxf/lib/libgxf_isaac_tensor_rt.so
+[7.829s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/version_info.yaml
+[7.838s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/environment/library_path.sh
+[7.848s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/environment/library_path.dsv
+[7.858s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/lib/libgxf_isaac_tensor_rt.so
+[7.864s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/ament_index/resource_index/package_run_dependencies/gxf_isaac_tensor_rt
+[7.871s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/ament_index/resource_index/parent_prefix_path/gxf_isaac_tensor_rt
+[7.878s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/environment/ament_prefix_path.sh
+[7.884s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/environment/ament_prefix_path.dsv
+[7.893s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/environment/path.sh
+[7.900s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/environment/path.dsv
+[7.907s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/local_setup.bash
+[7.914s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/local_setup.sh
+[7.921s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/local_setup.zsh
+[7.927s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/local_setup.dsv
+[7.934s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/package.dsv
+[7.942s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/ament_index/resource_index/packages/gxf_isaac_tensor_rt
+[7.951s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.962s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/cmake/ament_cmake_export_libraries-extras.cmake
+[7.969s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/cmake/gxf_isaac_tensor_rtConfig.cmake
+[7.975s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/cmake/gxf_isaac_tensor_rtConfig-version.cmake
+[7.982s] -- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/package.xml
+[7.991s] Invoked command in '/workspaces/isaac_ros-dev/build/gxf_isaac_tensor_rt' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_launch_utils:/workspaces/isaac_ros-dev/install/isaac_common_py:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/gxf_isaac_messages/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_gems/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive/lib:/opt/hpcx/ucc/lib/:/opt/hpcx/ucx/lib/:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/gxf_isaac_tensor_rt

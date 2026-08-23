@@ -1,0 +1,28 @@
+poses:
+  home:
+    joints:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  posicion0:
+    joints:
+    - 0.0
+    - 1.91986
+    - -1.91986
+    - 0.0
+    - 1.57079633
+    - 0.0
+sequence:
+- home
+- posicion0
+- comando_rotar_Y_+20
+- comando_rotar_Y_-40
+- comando_rotar_Y_+40
+- comando_rotar_Y_-40
+- comando_rotar_Y_+40
+- comando_rotar_Y_-20
+- home
+

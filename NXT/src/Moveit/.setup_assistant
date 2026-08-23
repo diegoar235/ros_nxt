@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: lego
+    relative_path: urdf/Ensamblaje.urdf
+  srdf:
+    relative_path: config/Ensamblaje.srdf
+  package_settings:
+    author_name: diego
+    author_email: tablet.235.13@gmail.com
+    generated_timestamp: 1745184720
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

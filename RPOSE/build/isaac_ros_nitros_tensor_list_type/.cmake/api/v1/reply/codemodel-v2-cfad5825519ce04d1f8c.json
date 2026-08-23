@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-81e83b698201ede48412.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "isaac_ros_nitros_tensor_list_type",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_version_info_target_isaac_ros_nitros_tensor_list_type::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_version_info_target_isaac_ros_nitros_tensor_list_type-Release-29ca5b2979a93e1e23b2.json",
+					"name" : "generate_version_info_target_isaac_ros_nitros_tensor_list_type",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isaac_ros_nitros_tensor_list_type::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isaac_ros_nitros_tensor_list_type-Release-049572a28f8899beff63.json",
+					"name" : "isaac_ros_nitros_tensor_list_type",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isaac_ros_nitros_tensor_list_type_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isaac_ros_nitros_tensor_list_type_uninstall-Release-714e6fbac719b71559cc.json",
+					"name" : "isaac_ros_nitros_tensor_list_type_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-8ad9d904cb859bfeb692.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/isaac_ros-dev/build/isaac_ros_nitros_tensor_list_type",
+		"source" : "/workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_tensor_list_type"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

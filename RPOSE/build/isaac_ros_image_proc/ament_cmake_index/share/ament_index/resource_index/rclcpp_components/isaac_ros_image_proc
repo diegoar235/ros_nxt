@@ -1,0 +1,8 @@
+nvidia::isaac_ros::image_proc::AlphaBlendNode;lib/libalpha_blend_node.so
+nvidia::isaac_ros::image_proc::ImageFormatConverterNode;lib/libimage_format_converter_node.so
+nvidia::isaac_ros::image_proc::RectifyNode;lib/librectify_node.so
+nvidia::isaac_ros::image_proc::ResizeNode;lib/libresize_node.so
+nvidia::isaac_ros::image_proc::ImageFlipNode;lib/libflip_node.so
+nvidia::isaac_ros::image_proc::CropNode;lib/libcrop_node.so
+nvidia::isaac_ros::image_proc::PadNode;lib/libpad_node.so
+nvidia::isaac_ros::image_proc::ImageNormalizeNode;lib/libimage_normalize_node.so

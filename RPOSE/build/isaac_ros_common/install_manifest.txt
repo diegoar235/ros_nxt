@@ -1,0 +1,4 @@
+/workspaces/isaac_ros-dev/install/isaac_ros_common/bin/isaac_ros_generate_bug_report.py
+/workspaces/isaac_ros-dev/install/isaac_ros_common/bin/isaac_ros_version_embed.py
+/workspaces/isaac_ros-dev/install/isaac_ros_common/bin/isaac_ros_asset_eula.sh
+/workspaces/isaac_ros-dev/install/isaac_ros_common/bin/isaac_ros_common-version-info.py

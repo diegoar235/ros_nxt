@@ -1,0 +1,577 @@
+<robot name="Ensamblaje">
+  <link name="world"/>
+
+<joint name="world_to_base" type="fixed">
+  <parent link="world"/>
+  <child link="base_link"/>
+  <origin xyz="0 0 0" rpy="0 0 0"/>
+</joint>
+
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.00143297289781318 0.0972210837988271 -0.000335529749456606"
+        rpy="0 0 0" />
+      <mass
+        value="1.42294386942817" />
+      <inertia
+        ixx="0.0132216509073776"
+        ixy="-0.000158652293415826"
+        ixz="2.93305585803312E-05"
+        iyy="0.00845457151334573"
+        iyz="-3.60565302489095E-05"
+        izz="0.0129735358835948" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5708 0 1.5708" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/visual/base_link.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 3.1416" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/collision/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="BaseMovil">
+    <inertial>
+      <origin
+        xyz="-1.28282331534233E-16 -0.134703164389748 0.0119579386369056"
+        rpy="0 0 0" />
+      <mass
+        value="0.242867568745409" />
+      <inertia
+        ixx="0.000808764810710543"
+        ixy="-6.07751799568124E-19"
+        ixz="1.49951441249629E-18"
+        iyy="0.00036925218578822"
+        iyz="6.19221462787169E-05"
+        izz="0.000663376584846465" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 -1.5708 3.1416" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/visual/BaseMovil.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 3.1416 0" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/collision/BaseMovil.STL" />        
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.1089"
+      rpy="-1.5708 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="BaseMovil" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3.1416"
+      upper="3.1416"
+      effort="0"
+      velocity="3.1416" />
+           
+  </joint>
+  <link
+    name="Brazo">
+    <inertial>
+      <origin
+        xyz="-2.64184148787479E-08 0.0827271120551161 -1.86361570064797E-08"
+        rpy="0 0 0" />
+      <mass
+        value="0.157608523774481" />
+      <inertia
+        ixx="0.000429191341144751"
+        ixy="2.04753294618092E-10"
+        ixz="-1.3155808410927E-10"
+        iyy="0.000289324520057458"
+        iyz="3.47389335865343E-10"
+        izz="0.000639613496156974" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5708 0 1.5708" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/visual/Brazo.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5708 0 0" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/collision/Brazo.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint2"
+    type="revolute">
+    <origin
+      xyz="0 -0.1801 0"
+      rpy="-3.1416 0 -3.1416" />
+    <parent
+      link="BaseMovil" />
+    <child
+      link="Brazo" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="3.1416"
+      effort="0"
+      velocity="3.141" />
+    
+  </joint>
+  <link
+    name="AnteBrazo">
+    <inertial>
+      <origin
+        xyz="-0.0365667497746823 0.0598651764142495 1.20154548090383E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.216310329191895" />
+      <inertia
+        ixx="0.000264607052882941"
+        ixy="0.000127628052151096"
+        ixz="2.22003743787601E-18"
+        iyy="0.000442094670964451"
+        iyz="-9.42644384625411E-19"
+        izz="0.000578578112922437" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/visual/AnteBrazo.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 1.5708 0" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/collision/AnteBrazo.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint3"
+    type="revolute">
+    <origin
+      xyz="0 0 0.136"
+      rpy="3.1416 3.1416 0" />
+    <parent
+      link="Brazo" />
+    <child
+      link="AnteBrazo" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-3.1416"
+      upper="0"
+      effort="0"
+      velocity="3.1416" />
+    
+  </joint>
+  <link
+    name="Munieca">
+    <inertial>
+      <origin
+        xyz="0.0452141820603019 0.000225887659027313 0.00200000000000258"
+        rpy="0 0 0" />
+      <mass
+        value="0.0758287405516436" />
+      <inertia
+        ixx="4.76404035653544E-05"
+        ixy="7.14512909325067E-07"
+        ixz="3.70854664888897E-19"
+        iyy="0.000121899293592062"
+        iyz="-1.61046859911085E-20"
+        izz="0.000101681570321121" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/visual/Munieca.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="-0.002 0 0"
+        rpy="0 1.5708 0" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/collision/Munieca.STL" />  
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint4"
+    type="revolute">
+    <origin
+      xyz="0 0.064 -0.045"
+      rpy="0 0 0" />
+    <parent
+      link="AnteBrazo" />
+    <child
+      link="Munieca" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.5708"
+      upper="1.5708"
+      effort="0"
+      velocity="1.5708" />
+    
+  </joint>
+  <link
+    name="Mano">
+    <inertial>
+      <origin
+        xyz="-5.20417042793042E-17 0.00199999999999855 0.0208560522689041"
+        rpy="0 0 0" />
+      <mass
+        value="0.0133403749579747" />
+      <inertia
+        ixx="1.82483410767168E-06"
+        ixy="2.17296469508656E-22"
+        ixz="1.87218350196537E-20"
+        iyy="2.56171126779421E-06"
+        iyz="5.05134272654301E-22"
+        izz="3.15031472875163E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 -1.5708 0" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/visual/Mano.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/collision/Mano.STL" />          
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint5"
+    type="revolute">
+    <origin
+      xyz="0 0 -0.083"
+      rpy="1.5708 1.5708 3.1416" />
+    <parent
+      link="Munieca" />
+    <child
+      link="Mano" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="3.1416"
+      effort="0"
+      velocity="3.1416" />
+    
+  </joint>
+  <link
+    name="Pinza">
+    <inertial>
+      <origin
+        xyz="0.0178763129048624 -0.00468246862579161 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.0460205290916002" />
+      <inertia
+        ixx="2.65578193912434E-05"
+        ixy="3.68997691913354E-06"
+        ixz="-3.68478392364538E-06"
+        iyy="2.66633549930463E-05"
+        iyz="3.76555413744802E-06"
+        izz="1.92865208127899E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 1.5708 3.1416" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/visual/Pinza.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="3.1416 0 0" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/collision/Pinza.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint6"
+    type="revolute">
+    <origin
+      xyz="0 0 0.029"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="Mano" />
+    <child
+      link="Pinza" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-1.5708"
+      upper="1.5708"
+      effort="0"
+      velocity="1.5708" />
+  
+  </joint>
+  <link
+    name="Dedo1">
+    <inertial>
+      <origin
+        xyz="0.0178763129048624 -0.00468246862579161 0.00467588148839063"
+        rpy="0 0 0" />
+      <mass
+        value="0.0460205290916002" />
+      <inertia
+        ixx="2.65578193912434E-05"
+        ixy="3.68997691913354E-06"
+        ixz="-3.68478392364537E-06"
+        iyy="2.66633549930463E-05"
+        iyz="3.76555413744802E-06"
+        izz="1.92865208127899E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0.00846 0"
+        rpy="-1.5708 3.1416 -1.5708" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/visual/Dedo1.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0.008 0.024"
+        rpy="0 -1.5708 1.5708" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/collision/Dedo2.STL" />        
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint7"
+    type="prismatic">
+    <origin
+      xyz="0.035 0 -0.008"
+      rpy="0 0 0" />
+    <parent
+      link="Pinza" />
+    <child
+      link="Dedo1" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0.016"
+      effort="0"
+      velocity="0.016" />
+  </joint>
+  <link
+    name="Dedo2">
+    <inertial>
+      <origin
+        xyz="0.00419946676985444 -0.0109693363746826 0.00161600585191003"
+        rpy="0 0 0" />
+      <mass
+        value="0.0118311180278391" />
+      <inertia
+        ixx="3.6595012348337E-06"
+        ixy="1.53512779026541E-06"
+        ixz="-1.60655311667269E-07"
+        iyy="3.58310500961816E-06"
+        iyz="5.82152912022735E-07"
+        izz="6.23211599514572E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 -0.008 -0.008"
+        rpy="0 1.5708 0" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/visual/Dedo2.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0.016 -0.008"
+        rpy="0 0 1.570" />
+      <geometry>
+        <mesh
+          filename="package://lego/meshes/collision/Dedo2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint8"
+    type="prismatic">
+    <origin
+      xyz="0.035 0 0"
+      rpy="1.5708 3.1416 3.1416" />
+    <parent
+      link="Pinza" />
+    <child
+      link="Dedo2" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="0"
+      upper="0.016"
+      effort="0"
+      velocity="0.016" />
+  </joint>
+
+
+
+ <ros2_control name="GazeboSystem" type="system">
+  <hardware>
+    <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+  </hardware>
+
+  <joint name="Joint1">
+    <command_interface name="position"/>
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>
+    <state_interface name="velocity"/>
+  </joint>
+
+  <joint name="Joint2">
+    <command_interface name="position"/>
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>
+    <state_interface name="velocity"/>
+  </joint>
+
+  <joint name="Joint3">
+    <command_interface name="position"/>
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>
+    <state_interface name="velocity"/>
+  </joint>
+
+  <joint name="Joint4">
+    <command_interface name="position"/>
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>
+    <state_interface name="velocity"/>
+  </joint>
+
+  <joint name="Joint5">
+    <command_interface name="position"/>
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>
+    <state_interface name="velocity"/>
+  </joint>
+
+  <joint name="Joint6">
+    <command_interface name="position"/>
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>
+    <state_interface name="velocity"/>
+  </joint>
+</ros2_control>
+
+<gazebo>
+  <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+    <parameters>/root/ros_ws/install/lego/share/lego/config/controllers.yaml</parameters>
+  </plugin>
+</gazebo>
+
+</robot>

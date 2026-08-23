@@ -1,0 +1,16 @@
+[33mCMake Warning at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_cmake_gtest-extras.cmake:109 (message):
+  'gtest' not found, C++ tests using 'Google Test' can not be built.  Please
+  install the 'Google Test' headers globally in your system to enable these
+  tests (e.g.  on Ubuntu/Debian install the package 'libgtest-dev') or get
+  the ament package 'gtest_vendor'
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:35 (_ament_cmake_gtest_find_gtest)
+  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+  CMakeLists.txt:142 (ament_add_gtest)
+
+[0m
+[31mCMake Error at CMakeLists.txt:143 (target_link_libraries):
+  Cannot specify link libraries for target "alpha_blend_test" which is not
+  built by this project.
+
+[0m

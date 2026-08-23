@@ -1,0 +1,1 @@
+nvidia::isaac_ros::dnn_inference::TensorRTNode;lib/libtensor_rt_node.so

@@ -1,0 +1,4 @@
+driver_stms:
+  ros__parameters:
+    port1: "/dev/ttyACM0"
+    port2: "/dev/ttyACM1"

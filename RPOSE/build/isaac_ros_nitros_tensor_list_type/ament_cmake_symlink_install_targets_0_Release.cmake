@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspaces/isaac_ros-dev/build/isaac_ros_nitros_tensor_list_type/libisaac_ros_nitros_tensor_list_type.so" "TARGETS" "isaac_ros_nitros_tensor_list_type" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

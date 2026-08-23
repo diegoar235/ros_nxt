@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspaces/isaac_ros-dev/build/isaac_ros_tensor_rt/libtensor_rt_node.so" "TARGETS" "tensor_rt_node" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

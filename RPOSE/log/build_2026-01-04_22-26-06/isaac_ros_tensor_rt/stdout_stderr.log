@@ -1,0 +1,52 @@
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Loading isaac_ros_common extras
+-- CMAKE_BUILD_TYPE: Release
+-- CUDA architectures: 89;86;80;75;70
+-- Loading isaac_ros_common extras (modules)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Loading isaac_ros_gxf extras
+[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/isaac_ros_tensor_rt` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_tensor_rt
+[35m[1mConsolidate compiler generated dependencies of target tensor_rt_node[0m
+[ 33%] Built target generate_version_info_target_isaac_ros_tensor_rt
+[100%] Built target tensor_rt_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/version_info.yaml
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/include/isaac_ros_tensor_rt/tensor_rt_node.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/environment/library_path.sh
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/environment/library_path.dsv
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/lib/libtensor_rt_node.so
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/config/isaac_ros_tensor_rt.yaml
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/config/namespace_injector_rule.yaml
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/config/tensor_rt_inference.yaml
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/launch/isaac_ros_tensor_rt.launch.py
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/ament_index/resource_index/package_run_dependencies/isaac_ros_tensor_rt
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/ament_index/resource_index/parent_prefix_path/isaac_ros_tensor_rt
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/environment/path.sh
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/environment/path.dsv
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/local_setup.bash
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/local_setup.sh
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/local_setup.zsh
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/local_setup.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/package.dsv
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/ament_index/resource_index/packages/isaac_ros_tensor_rt
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/ament_index/resource_index/rclcpp_components/isaac_ros_tensor_rt
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/cmake/isaac_ros_tensor_rtConfig.cmake
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/cmake/isaac_ros_tensor_rtConfig-version.cmake
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/share/isaac_ros_tensor_rt/package.xml

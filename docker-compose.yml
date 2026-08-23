@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  # Entorno principal de ROS 2
+  ros2_main:
+    build: .
+    image: ros2-humble-env:latest
+    container_name: ros2_main_container
+    network_mode: "host"
+    privileged: true # Permite acceso total al hardware USB (ej. STM32)
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ./ros2_ws:/home/developer/ros_ws  # Ruta relativa al workspace
+    # Soporte nativo para NVIDIA en Docker Compose
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu, compute, video, utility]
+    tty: true
+    stdin_open: true
+
+  # Agente micro-ROS para STM32 A
+  microros_stm32A:
+    image: microros/micro-ros-agent:humble
+    container_name: microrosA
+    network_mode: "host"
+    devices:
+      - ${PORT_STM32A}:${PORT_STM32A}
+    command: ["serial", "--dev", "${PORT_STM32A}", "-v6"]
+
+  # Agente micro-ROS para STM32 B
+  microros_stm32B:
+    image: microros/micro-ros-agent:humble
+    container_name: microrosB
+    network_mode: "host"
+    devices:
+      - ${PORT_STM32B}:${PORT_STM32B}
+    command: ["serial", "--dev", "${PORT_STM32B}", "-v6"]

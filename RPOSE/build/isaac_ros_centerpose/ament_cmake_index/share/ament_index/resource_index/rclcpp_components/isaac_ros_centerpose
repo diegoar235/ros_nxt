@@ -1,0 +1,2 @@
+nvidia::isaac_ros::centerpose::CenterPoseDecoderNode;lib/libcenterpose_decoder_node.so
+nvidia::isaac_ros::centerpose::CenterPoseVisualizerNode;lib/libcenterpose_visualizer_node.so

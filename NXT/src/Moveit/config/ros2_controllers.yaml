@@ -1,0 +1,53 @@
+# This config file is used by ros2_control
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    BRAZO_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    PINZA_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+BRAZO_controller:
+  ros__parameters:
+    joints:
+      - Joint1
+      - Joint2
+      - Joint3
+      - Joint4
+      - Joint5
+      - Joint6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    allow_nonzero_velocity_at_trajectory_end: false
+    cmd_timeout: 0.2
+
+    constraints:
+      goal_time: 0.2
+      stopped_velocity_tolerance: 0.01
+      joint1: {trajectory: 0.02, goal: 0.01}
+      joint2: {trajectory: 0.02, goal: 0.01}
+      joint3: {trajectory: 0.02, goal: 0.01}
+      joint4: {trajectory: 0.02, goal: 0.01}
+      joint5: {trajectory: 0.02, goal: 0.01}
+      joint6: {trajectory: 0.02, goal: 0.01}
+            
+PINZA_controller:
+  ros__parameters:
+    joints:
+      - Joint7
+      - Joint8
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity

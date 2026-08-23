@@ -1,0 +1,71 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Loading isaac_ros_common extras
+-- CMAKE_BUILD_TYPE: Release
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found CUDA: /usr/local/cuda (found version "12.6") 
+-- CUDA architectures: 89;86;80;75;70
+-- Loading isaac_ros_common extras (modules)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Loading isaac_ros_gxf extras
+-- Found CUDAToolkit: /usr/local/cuda/include (found version "12.6.20") 
+-- Found TENSORRT: /usr/include/x86_64-linux-gnu (found suitable version "10.3.0", minimum required is "10") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/isaac_ros-dev/build/gxf_isaac_tensor_rt
+[ 25%] [34m[1mGenerating version information as YAML[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gxf_isaac_tensor_rt.dir/gxf/extensions/tensor_rt/tensor_rt_extension.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/gxf_isaac_tensor_rt.dir/gxf/extensions/tensor_rt/tensor_rt_inference.cpp.o[0m
+[ 75%] Built target generate_version_info_target_gxf_isaac_tensor_rt
+[100%] [32m[1mLinking CXX shared library libgxf_isaac_tensor_rt.so[0m
+[100%] Built target gxf_isaac_tensor_rt
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/gxf/lib/libgxf_isaac_tensor_rt.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/version_info.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/environment/library_path.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/environment/library_path.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/lib/libgxf_isaac_tensor_rt.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/ament_index/resource_index/package_run_dependencies/gxf_isaac_tensor_rt
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/ament_index/resource_index/parent_prefix_path/gxf_isaac_tensor_rt
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/environment/path.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/environment/path.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/local_setup.bash
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/local_setup.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/local_setup.zsh
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/local_setup.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/package.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/ament_index/resource_index/packages/gxf_isaac_tensor_rt
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/cmake/gxf_isaac_tensor_rtConfig.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/cmake/gxf_isaac_tensor_rtConfig-version.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/share/gxf_isaac_tensor_rt/package.xml

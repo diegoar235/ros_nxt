@@ -1,0 +1,11 @@
+source;share/gxf_isaac_tensorops/hook/cmake_prefix_path.ps1
+source;share/gxf_isaac_tensorops/hook/cmake_prefix_path.dsv
+source;share/gxf_isaac_tensorops/hook/cmake_prefix_path.sh
+source;share/gxf_isaac_tensorops/hook/ld_library_path_lib.ps1
+source;share/gxf_isaac_tensorops/hook/ld_library_path_lib.dsv
+source;share/gxf_isaac_tensorops/hook/ld_library_path_lib.sh
+source;share/gxf_isaac_tensorops/local_setup.bash
+source;share/gxf_isaac_tensorops/local_setup.dsv
+source;share/gxf_isaac_tensorops/local_setup.ps1
+source;share/gxf_isaac_tensorops/local_setup.sh
+source;share/gxf_isaac_tensorops/local_setup.zsh

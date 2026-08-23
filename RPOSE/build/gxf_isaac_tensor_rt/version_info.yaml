@@ -1,0 +1,7 @@
+build_datetime: '2026-01-04T15:11:05.368111'
+git_branch: release-3.2
+git_commit_date: 2025-07-03 17:29:42 -0700
+git_commit_hash: 5f096e7a6ea2b8969cfe4be62a4d26959a17a9af
+git_commit_message: Update gmock and gtest usage
+git_workspace_dirty: 'No'
+version: 3.2.5

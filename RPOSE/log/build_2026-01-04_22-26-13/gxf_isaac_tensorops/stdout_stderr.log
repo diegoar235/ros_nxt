@@ -1,0 +1,132 @@
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Loading isaac_ros_common extras
+-- CMAKE_BUILD_TYPE: Release
+-- CUDA architectures: 89;86;80;75;70
+-- Loading isaac_ros_common extras (modules)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Loading isaac_ros_gxf extras
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/isaac_ros-dev/build/gxf_isaac_tensorops
+[35m[1mConsolidate compiler generated dependencies of target gxf_isaac_tensorops[0m
+[  2%] Built target generate_version_info_target_gxf_isaac_tensorops
+[100%] Built target gxf_isaac_tensorops
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/gxf/lib/libgxf_isaac_tensorops.so
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/BBoxGenerator.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/BBoxGenerator.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/CameraModel.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/CameraModel.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/ConvertColorFormat.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/ConvertColorFormat.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/CropAndResize.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/CropAndResize.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/Frame3D.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/Frame3D.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/ImageAdapter.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/ImageAdapter.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/ImageUtils.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/ImageUtils.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/InterleavedToPlanar.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/InterleavedToPlanar.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/Normalize.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/Normalize.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/Reshape.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/Reshape.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/Resize.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/Resize.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/TensorOperator.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/TensorOperator.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/TensorStream.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/TensorStream.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/Undistort.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/Undistort.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/detail/ImageAdapterTensorImpl.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/detail/ImageAdapterTensorImpl.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/detail/ImageAdapterVideoBufferImpl.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/components/detail/ImageAdapterVideoBufferImpl.hpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/ArithmeticOperations.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/Array.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/Array.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/BBox.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/BBoxUtils.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/BBoxUtils.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/CVError.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/CVError.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/CameraModel.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/ColorConversions.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/ComputeEngine.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/Core.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/DBScan.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/DBScan.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/Errors.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/Errors.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/Filters.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/Filters.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/FusedOperations.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/GeometryTransforms.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/IImageWarp.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/IImageWarp.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/ITensorOperatorContext.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/ITensorOperatorStream.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/Image.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/ImageUtils.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/MathTypes.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/MathTypes.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/Memory.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/Memory.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/NppUtils.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/NppUtils.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/OneEuroFilter.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/OneEuroFilter.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/Tensor.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/Tensor.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/TensorOperators.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/TensorOperators.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/Traits.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/VPIColorConvertImpl.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/VPIColorConvertImpl.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/VPIEnumMapping.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/VPIImageWarp.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/VPIRemapImpl.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/VPIRemapImpl.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/VPIResizeImpl.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/VPIResizeImpl.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/VPIStatusMapping.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/VPIStatusMapping.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/VPIStereoDisparityEstimatorImpl.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/VPIStereoDisparityEstimatorImpl.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/VPITensorOperators.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/core/VPITensorOperators.h
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/include/extensions/tensorops/tensorops.cpp
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/version_info.yaml
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/environment/library_path.sh
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/environment/library_path.dsv
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/lib/libgxf_isaac_tensorops.so
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/ament_index/resource_index/package_run_dependencies/gxf_isaac_tensorops
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/ament_index/resource_index/parent_prefix_path/gxf_isaac_tensorops
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/environment/path.sh
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/environment/path.dsv
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/local_setup.bash
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/local_setup.sh
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/local_setup.zsh
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/local_setup.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/package.dsv
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/ament_index/resource_index/packages/gxf_isaac_tensorops
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/cmake/gxf_isaac_tensoropsConfig.cmake
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/cmake/gxf_isaac_tensoropsConfig-version.cmake
+-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/share/gxf_isaac_tensorops/package.xml

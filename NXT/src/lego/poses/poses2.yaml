@@ -1,0 +1,65 @@
+poses:
+  home:
+    joints:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0  
+  posicion0:
+    joints:
+    - 0.0
+    - 1.91986
+    - -1.91986
+    - 0.0
+    - 3.14159
+    - 0.0
+  posicion1:
+    joints:
+    - 0.0
+    - 1.91986
+    - -1.91986
+    - 1.5708
+    - 3.14159
+    - 0.0 
+  posicion2:
+    joints:
+    - 0.0
+    - 1.91986
+    - -1.91986
+    - -1.5708
+    - 3.14159
+    - 0.0     
+  posicion3:
+    joints:
+    - 0.0
+    - 1.91986
+    - -1.91986
+    - -1.5708
+    - 3.14159
+    - 1.5708
+  posicion4:
+    joints:
+    - 0.0
+    - 1.91986
+    - -1.91986
+    - -1.5708
+    - 3.14159
+    - -1.5708    
+  pinzaAbrir:
+    abrir_pinza: true
+  pinzaCerrar:
+    cerrar_pinza: false
+  
+sequence:
+- home
+- posicion0
+- pinzaAbrir
+- posicion1
+- pinzaCerrar
+- posicion2
+- pinzaAbrir
+- posicion3
+- posicion4
+- home

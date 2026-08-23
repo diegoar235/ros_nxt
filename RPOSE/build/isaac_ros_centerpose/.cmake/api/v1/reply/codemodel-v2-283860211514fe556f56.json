@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d08f08bba979666ddf92.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "isaac_ros_centerpose",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "centerpose_decoder_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-centerpose_decoder_node-Release-21d56cfc7ae4eaaecea0.json",
+					"name" : "centerpose_decoder_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "centerpose_visualizer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-centerpose_visualizer_node-Release-3395d52398fb33eb6649.json",
+					"name" : "centerpose_visualizer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_version_info_target_isaac_ros_centerpose::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_version_info_target_isaac_ros_centerpose-Release-abe5fc6fc6a0ecff4703.json",
+					"name" : "generate_version_info_target_isaac_ros_centerpose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isaac_ros_centerpose_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isaac_ros_centerpose_uninstall-Release-27c35f3913593040c53f.json",
+					"name" : "isaac_ros_centerpose_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-b446ce16171f1fe74d6f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/isaac_ros-dev/build/isaac_ros_centerpose",
+		"source" : "/workspaces/isaac_ros-dev/src/isaac_ros_pose_estimation/isaac_ros_centerpose"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

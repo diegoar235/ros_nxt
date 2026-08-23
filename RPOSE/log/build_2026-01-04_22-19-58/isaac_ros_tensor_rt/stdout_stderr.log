@@ -1,0 +1,45 @@
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Loading isaac_ros_common extras
+-- CMAKE_BUILD_TYPE: Release
+-- CUDA architectures: 89;86;80;75;70
+-- Loading isaac_ros_common extras (modules)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Loading isaac_ros_gxf extras
+[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/isaac_ros_tensor_rt` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_tensor_rt
+[35m[1mConsolidate compiler generated dependencies of target tensor_rt_node[0m
+[ 33%] Built target generate_version_info_target_isaac_ros_tensor_rt
+[ 66%] [32mBuilding CXX object CMakeFiles/tensor_rt_node.dir/src/tensor_rt_node.cpp.o[0m
+[01m[K/workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_tensor_rt/src/tensor_rt_node.cpp:[m[K In function ‘[01m[Kbool nvidia::isaac_ros::dnn_inference::{anonymous}::readTensorShapesFromOnnx(const string&, size_t, std::vector<nvinfer1::Dims64>&, std::vector<nvinfer1::DataType>&)[m[K’:
+[01m[K/workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_tensor_rt/src/tensor_rt_node.cpp:162:76:[m[K [01;35m[Kwarning: [m[K‘[01m[Knvinfer1::NetworkDefinitionCreationFlag::kEXPLICIT_BATCH[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  162 |  << static_cast<uint32_t>(nvinfer1::NetworkDefinitionCreationFlag::[01;35m[KkEXPLICIT_BATCH[m[K)));
+      |                                                                    [01;35m[K^~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInferPlugin.h:21[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_tensor_rt/include/isaac_ros_tensor_rt/tensor_rt_node.hpp:26[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_tensor_rt/src/tensor_rt_node.cpp:18[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:9614:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ 9614 |     [01;36m[KkEXPLICIT_BATCH[m[K TRT_DEPRECATED_ENUM = 0,
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_tensor_rt/src/tensor_rt_node.cpp:162:76:[m[K [01;35m[Kwarning: [m[K‘[01m[Knvinfer1::NetworkDefinitionCreationFlag::kEXPLICIT_BATCH[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  162 |  << static_cast<uint32_t>(nvinfer1::NetworkDefinitionCreationFlag::[01;35m[KkEXPLICIT_BATCH[m[K)));
+      |                                                                    [01;35m[K^~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInferPlugin.h:21[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_tensor_rt/include/isaac_ros_tensor_rt/tensor_rt_node.hpp:26[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_tensor_rt/src/tensor_rt_node.cpp:18[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:9614:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ 9614 |     [01;36m[KkEXPLICIT_BATCH[m[K TRT_DEPRECATED_ENUM = 0,
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libtensor_rt_node.so[0m
+[100%] Built target tensor_rt_node

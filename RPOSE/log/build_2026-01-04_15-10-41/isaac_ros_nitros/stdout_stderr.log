@@ -1,0 +1,102 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Loading isaac_ros_common extras
+-- CMAKE_BUILD_TYPE: Release
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found CUDA: /usr/local/cuda (found version "12.6") 
+-- CUDA architectures: 89;86;80;75;70
+-- Loading isaac_ros_common extras (modules)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Loading isaac_ros_gxf extras
+[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/isaac_ros_nitros` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_nitros
+[  9%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros.dir/src/nitros_node.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros.dir/src/nitros_context.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros.dir/src/nitros_publisher.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros.dir/src/utils/vpi_utilities.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros.dir/src/types/nitros_empty.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros.dir/src/nitros_subscriber.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros.dir/src/types/type_adapter_nitros_context.cpp.o[0m
+[ 72%] [34m[1mGenerating version information as YAML[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros.dir/src/types/nitros_type_base.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros.dir/src/nitros_publisher_subscriber_group.cpp.o[0m
+[ 90%] Built target generate_version_info_target_isaac_ros_nitros
+[100%] [32m[1mLinking CXX shared library libisaac_ros_nitros.so[0m
+[100%] Built target isaac_ros_nitros
+-- Install configuration: "Release"
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib/isaac_ros_nitros/diagnostic_viewer.py
+-- Execute custom install script
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/cuapriltags/lib/libcuapriltags.a
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/cuvslam/lib/libcuvslam.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/cuvslam/lib/cuvslam_api_launcher
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/cuvslam/include/cuvslam.h
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/cuvslam/include/ground_constraint.h
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/ament_index/resource_index/cuvslam/isaac_ros_nitros
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/cuapriltags/cuapriltags/cuAprilTags.h
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/ament_index/resource_index/cuapriltags/isaac_ros_nitros
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/version_info.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/include/isaac_ros_nitros/nitros_context.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/include/isaac_ros_nitros/nitros_node.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/include/isaac_ros_nitros/nitros_publisher.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/include/isaac_ros_nitros/nitros_publisher_subscriber_base.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/include/isaac_ros_nitros/nitros_publisher_subscriber_group.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/include/isaac_ros_nitros/nitros_subscriber.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/include/isaac_ros_nitros/types/nitros_empty.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/include/isaac_ros_nitros/types/nitros_format_agent.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/include/isaac_ros_nitros/types/nitros_type_base.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/include/isaac_ros_nitros/types/nitros_type_manager.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/include/isaac_ros_nitros/types/nitros_type_message_filter_traits.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/include/isaac_ros_nitros/types/nitros_type_view_factory.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/include/isaac_ros_nitros/types/type_adapter_nitros_context.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/include/isaac_ros_nitros/types/type_utility.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/include/isaac_ros_nitros/utils/vpi_utilities.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/environment/library_path.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/environment/library_path.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib/libisaac_ros_nitros.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/config/type_adapter_nitros_context_graph.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/ament_index/resource_index/package_run_dependencies/isaac_ros_nitros
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/ament_index/resource_index/parent_prefix_path/isaac_ros_nitros
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/environment/path.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/environment/path.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/local_setup.bash
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/local_setup.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/local_setup.zsh
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/local_setup.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/package.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/ament_index/resource_index/packages/isaac_ros_nitros
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/cmake/isaac_ros_nitrosConfig.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/cmake/isaac_ros_nitrosConfig-version.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros/share/isaac_ros_nitros/package.xml

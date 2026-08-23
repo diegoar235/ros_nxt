@@ -1,0 +1,5 @@
+nvidia::isaac_ros::dnn_inference::InterleavedToPlanarNode;lib/libinterleaved_to_planar_node.so
+nvidia::isaac_ros::dnn_inference::ReshapeNode;lib/libreshape_node.so
+nvidia::isaac_ros::dnn_inference::ImageToTensorNode;lib/libimage_to_tensor_node.so
+nvidia::isaac_ros::dnn_inference::ImageTensorNormalizeNode;lib/libimage_tensor_normalize_node.so
+nvidia::isaac_ros::dnn_inference::NormalizeNode;lib/libnormalize_node.so

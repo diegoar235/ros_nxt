@@ -1,0 +1,647 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (-) JobUnselected: {'identifier': 'custom_nitros_dnn_image_encoder'}
+[0.000231] (-) JobUnselected: {'identifier': 'custom_nitros_image'}
+[0.000261] (-) JobUnselected: {'identifier': 'custom_nitros_message_filter'}
+[0.000286] (-) JobUnselected: {'identifier': 'custom_nitros_message_filter_interfaces'}
+[0.000309] (-) JobUnselected: {'identifier': 'custom_nitros_string'}
+[0.000351] (-) JobUnselected: {'identifier': 'gxf_isaac_argus'}
+[0.000425] (-) JobUnselected: {'identifier': 'gxf_isaac_atlas'}
+[0.000454] (-) JobUnselected: {'identifier': 'gxf_isaac_centerpose'}
+[0.000480] (-) JobUnselected: {'identifier': 'gxf_isaac_cuda'}
+[0.000512] (-) JobUnselected: {'identifier': 'gxf_isaac_depth_image_proc'}
+[0.000536] (-) JobUnselected: {'identifier': 'gxf_isaac_dope'}
+[0.000561] (-) JobUnselected: {'identifier': 'gxf_isaac_flatscan_localization'}
+[0.000651] (-) JobUnselected: {'identifier': 'gxf_isaac_foundationpose'}
+[0.000685] (-) JobUnselected: {'identifier': 'gxf_isaac_gems'}
+[0.000710] (-) JobUnselected: {'identifier': 'gxf_isaac_gxf_helpers'}
+[0.000751] (-) JobUnselected: {'identifier': 'gxf_isaac_hesai'}
+[0.000820] (-) JobUnselected: {'identifier': 'gxf_isaac_image_flip'}
+[0.000852] (-) JobUnselected: {'identifier': 'gxf_isaac_localization'}
+[0.000877] (-) JobUnselected: {'identifier': 'gxf_isaac_message_compositor'}
+[0.000929] (-) JobUnselected: {'identifier': 'gxf_isaac_messages'}
+[0.000964] (-) JobUnselected: {'identifier': 'gxf_isaac_messages_throttler'}
+[0.000989] (-) JobUnselected: {'identifier': 'gxf_isaac_optimizer'}
+[0.001015] (-) JobUnselected: {'identifier': 'gxf_isaac_point_cloud'}
+[0.001039] (-) JobUnselected: {'identifier': 'gxf_isaac_range_scan_processing'}
+[0.001099] (-) JobUnselected: {'identifier': 'gxf_isaac_rectify'}
+[0.001135] (-) JobUnselected: {'identifier': 'gxf_isaac_ros_cuda'}
+[0.001311] (-) JobUnselected: {'identifier': 'gxf_isaac_ros_messages'}
+[0.001360] (-) JobUnselected: {'identifier': 'gxf_isaac_segway'}
+[0.001412] (-) JobUnselected: {'identifier': 'gxf_isaac_sgm'}
+[0.001446] (-) JobUnselected: {'identifier': 'gxf_isaac_sight'}
+[0.001510] (-) JobUnselected: {'identifier': 'gxf_isaac_tensor_rt'}
+[0.001543] (-) JobUnselected: {'identifier': 'gxf_isaac_tensorops'}
+[0.001596] (-) JobUnselected: {'identifier': 'gxf_isaac_timestamp_correlator'}
+[0.001650] (-) JobUnselected: {'identifier': 'gxf_isaac_triton'}
+[0.001674] (-) JobUnselected: {'identifier': 'gxf_isaac_utils'}
+[0.001687] (-) JobUnselected: {'identifier': 'isaac_common'}
+[0.001701] (-) JobUnselected: {'identifier': 'isaac_common_py'}
+[0.001711] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.001720] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.001729] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.001776] (-) JobUnselected: {'identifier': 'isaac_ros_depth_image_proc'}
+[0.001786] (-) JobUnselected: {'identifier': 'isaac_ros_dnn_image_encoder'}
+[0.001795] (-) JobUnselected: {'identifier': 'isaac_ros_dope'}
+[0.001804] (-) JobUnselected: {'identifier': 'isaac_ros_foundationpose'}
+[0.001816] (-) JobUnselected: {'identifier': 'isaac_ros_gxf'}
+[0.001830] (-) JobUnselected: {'identifier': 'isaac_ros_image_pipeline'}
+[0.001840] (-) JobUnselected: {'identifier': 'isaac_ros_image_proc'}
+[0.001849] (-) JobUnselected: {'identifier': 'isaac_ros_launch_utils'}
+[0.001890] (-) JobUnselected: {'identifier': 'isaac_ros_managed_nitros'}
+[0.001905] (-) JobUnselected: {'identifier': 'isaac_ros_nitros'}
+[0.001917] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_battery_state_type'}
+[0.001930] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_bridge_interfaces'}
+[0.001949] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_bridge_ros2'}
+[0.001958] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_camera_info_type'}
+[0.001967] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_compressed_image_type'}
+[0.002006] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_compressed_video_type'}
+[0.002016] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_correlated_timestamp_type'}
+[0.002101] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_detection2_d_array_type'}
+[0.002120] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_detection3_d_array_type'}
+[0.002129] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_disparity_image_type'}
+[0.002163] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_encoder_ticks_type'}
+[0.002173] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_flat_scan_type'}
+[0.002182] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_image_type'}
+[0.002199] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_imu_type'}
+[0.002209] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_occupancy_grid_type'}
+[0.002219] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_odometry_type'}
+[0.002228] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_point_cloud_type'}
+[0.002340] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_pose_array_type'}
+[0.002351] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_pose_cov_stamped_type'}
+[0.002360] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_std_msg_type'}
+[0.002375] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_tensor_list_type'}
+[0.002387] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_topic_tools'}
+[0.002396] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_twist_type'}
+[0.002405] (-) JobUnselected: {'identifier': 'isaac_ros_nova_interfaces'}
+[0.002473] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.002507] (-) JobUnselected: {'identifier': 'isaac_ros_pose_proc'}
+[0.002517] (-) JobUnselected: {'identifier': 'isaac_ros_pynitros'}
+[0.002541] (-) JobUnselected: {'identifier': 'isaac_ros_r2b_galileo'}
+[0.002551] (-) JobUnselected: {'identifier': 'isaac_ros_rosbag_utils'}
+[0.002560] (-) JobUnselected: {'identifier': 'isaac_ros_stereo_image_proc'}
+[0.002746] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.002847] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_proc'}
+[0.002888] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_rt'}
+[0.002928] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.002953] (-) JobUnselected: {'identifier': 'isaac_ros_test_cmake'}
+[0.002962] (-) JobUnselected: {'identifier': 'isaac_ros_triton'}
+[0.002973] (isaac_ros_centerpose) JobQueued: {'identifier': 'isaac_ros_centerpose', 'dependencies': OrderedDict([('isaac_ros_common', '/workspaces/isaac_ros-dev/install/isaac_ros_common'), ('isaac_ros_gxf', '/workspaces/isaac_ros-dev/install/isaac_ros_gxf'), ('isaac_ros_tensor_list_interfaces', '/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces'), ('isaac_ros_test', '/workspaces/isaac_ros-dev/install/isaac_ros_test'), ('gxf_isaac_gems', '/workspaces/isaac_ros-dev/install/gxf_isaac_gems'), ('gxf_isaac_image_flip', '/workspaces/isaac_ros-dev/install/gxf_isaac_image_flip'), ('gxf_isaac_message_compositor', '/workspaces/isaac_ros-dev/install/gxf_isaac_message_compositor'), ('gxf_isaac_optimizer', '/workspaces/isaac_ros-dev/install/gxf_isaac_optimizer'), ('gxf_isaac_sight', '/workspaces/isaac_ros-dev/install/gxf_isaac_sight'), ('gxf_isaac_triton', '/workspaces/isaac_ros-dev/install/gxf_isaac_triton'), ('gxf_isaac_atlas', '/workspaces/isaac_ros-dev/install/gxf_isaac_atlas'), ('gxf_isaac_gxf_helpers', '/workspaces/isaac_ros-dev/install/gxf_isaac_gxf_helpers'), ('gxf_isaac_messages', '/workspaces/isaac_ros-dev/install/gxf_isaac_messages'), ('gxf_isaac_tensorops', '/workspaces/isaac_ros-dev/install/gxf_isaac_tensorops'), ('isaac_ros_nitros', '/workspaces/isaac_ros-dev/install/isaac_ros_nitros'), ('gxf_isaac_tensor_rt', '/workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt'), ('isaac_ros_nitros_camera_info_type', '/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type'), ('isaac_ros_nitros_detection3_d_array_type', '/workspaces/isaac_ros-dev/install/isaac_ros_nitros_detection3_d_array_type'), ('isaac_ros_nitros_image_type', '/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type'), ('isaac_ros_nitros_tensor_list_type', '/workspaces/isaac_ros-dev/install/isaac_ros_nitros_tensor_list_type'), ('gxf_isaac_centerpose', '/workspaces/isaac_ros-dev/install/gxf_isaac_centerpose'), ('isaac_ros_managed_nitros', '/workspaces/isaac_ros-dev/install/isaac_ros_managed_nitros'), ('isaac_ros_tensor_rt', '/workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt'), ('isaac_ros_triton', '/workspaces/isaac_ros-dev/install/isaac_ros_triton'), ('isaac_ros_image_proc', '/workspaces/isaac_ros-dev/install/isaac_ros_image_proc'), ('isaac_ros_tensor_proc', '/workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc'), ('isaac_ros_dnn_image_encoder', '/workspaces/isaac_ros-dev/install/isaac_ros_dnn_image_encoder')])}
+[0.003019] (isaac_ros_centerpose) JobStarted: {'identifier': 'isaac_ros_centerpose'}
+[0.099359] (-) TimerEvent: {}
+[0.199738] (-) TimerEvent: {}
+[0.270890] (isaac_ros_centerpose) JobProgress: {'identifier': 'isaac_ros_centerpose', 'progress': 'cmake'}
+[0.271305] (isaac_ros_centerpose) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/isaac_ros-dev/src/isaac_ros_pose_estimation/isaac_ros_centerpose', '-DCMAKE_BUILD_TYPE=Release', '-DBUILD_TESTING=OFF', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_centerpose'], 'cwd': '/workspaces/isaac_ros-dev/build/isaac_ros_centerpose', 'env': OrderedDict([('NPP_VERSION', '12.3.1.23'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('DALI_BUILD', '16741769'), ('CUSOLVER_VERSION', '11.6.4.38'), ('CUBLAS_VERSION', '12.6.0.22'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', 'debian'), ('DCGM_VERSION', '3.2.6'), ('HOST_USER_GID', '1000'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=9.0'), ('CUFFT_VERSION', '11.2.6.28'), ('SSH_AUTH_SOCK', '/ssh-agent'), ('CUDA_CACHE_DISABLE', '1'), ('NCCL_VERSION', '2.22.3'), ('MODEL_OPT_VERSION', '0.15.0'), ('CUSPARSE_VERSION', '12.5.2.23'), ('ENV', '/etc/shinit_v2'), ('PWD', '/workspaces/isaac_ros-dev/build/isaac_ros_centerpose'), ('OPENUCX_VERSION', '1.17.0'), ('NSIGHT_SYSTEMS_VERSION', '2024.4.2.133'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('POLYGRAPHY_VERSION', '0.49.13'), ('ISAAC_ROS_WS', '/workspaces/isaac_ros-dev'), ('TF_ENABLE_WINOGRAD_NONFUSED', '1'), ('CUSPARSELT_VERSION', '0.6.2.3'), ('TRT_VERSION', '10.3.0.26+cuda12.5.1.007'), ('NVIDIA_PRODUCT_NAME', 'Triton Server'), ('RDMACORE_VERSION', '39.0'), ('HOME', '/root'), ('USERNAME', 'admin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '12.6.0.022'), ('CURAND_VERSION', '10.3.7.37'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_triton:/workspaces/isaac_ros-dev/install/gxf_isaac_triton:/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/gxf_isaac_tensorops:/workspaces/isaac_ros-dev/install/isaac_ros_centerpose:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt:/workspaces/isaac_ros-dev/install/isaac_ros_dnn_image_encoder:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc:/workspaces/isaac_ros-dev/install/isaac_ros_managed_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_tensor_list_type:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/gxf_isaac_centerpose:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_detection3_d_array_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt:/workspaces/isaac_ros-dev/install/gxf_isaac_sight:/workspaces/isaac_ros-dev/install/gxf_isaac_optimizer:/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_message_compositor:/workspaces/isaac_ros-dev/install/gxf_isaac_gxf_helpers:/workspaces/isaac_ros-dev/install/gxf_isaac_atlas:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/isaac_ros_dnn_image_encoder:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc:/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/isaac_ros_triton:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt:/workspaces/isaac_ros-dev/install/isaac_ros_managed_nitros:/workspaces/isaac_ros-dev/install/gxf_isaac_centerpose:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_tensor_list_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_detection3_d_array_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/gxf_isaac_tensorops:/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_gxf_helpers:/workspaces/isaac_ros-dev/install/gxf_isaac_atlas:/workspaces/isaac_ros-dev/install/gxf_isaac_triton:/workspaces/isaac_ros-dev/install/gxf_isaac_sight:/workspaces/isaac_ros-dev/install/gxf_isaac_optimizer:/workspaces/isaac_ros-dev/install/gxf_isaac_message_compositor:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_centerpose:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive:/workspaces/isaac_ros-dev/install/isaac_ros_test:/opt/ros/humble'), ('TCMALLOC_RELEASE_RATE', '200'), ('COLCON_PREFIX_PATH', '/workspaces/isaac_ros-dev/install'), ('CUTENSOR_VERSION', '2.0.2.5'), ('TRITON_SERVER_GPU_ENABLED', '1'), ('HPCX_VERSION', '2.19'), ('CUDA_VISIBLE_DEVICES', '0'), ('CUDNN_FRONTEND_VERSION', '1.5.2'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.10/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/local/lib/python3.10/dist-packages:/workspaces/isaac_ros-dev/install/isaac_ros_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/vcstool:/opt/tritonserver/backends/dali/wheel/dali'), ('COLCON', '1'), ('TERM', 'xterm'), ('TRITON_SERVER_VERSION', '2.49.0'), ('GDRCOPY_VERSION', '2.3.1-1'), ('HOST_USER_UID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'diego'), ('OPENMPI_VERSION', '4.1.7'), ('NVJPEG_VERSION', '12.3.3.23'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs:'), ('DISPLAY', ':1'), ('SHLVL', '1'), ('BASH_ENV', '/etc/bash.bashrc'), ('TRT_INC_PATH', '/usr/include/x86_64-linux-gnu'), ('TF_AUTOTUNE_THRESHOLD', '2'), ('CUDNN_VERSION', '9.3.0.75'), ('NSIGHT_COMPUTE_VERSION', '2024.3.0.15'), ('DALI_VERSION', '1.40.0'), ('NVIDIA_TRITON_SERVER_VERSION', '24.08'), ('TRT_LIB_PATH', '/usr/lib/x86_64-linux-gnu'), ('CUDSS_DIR', '/usr/local/libcudss-linux-0.3.0.9_cuda12-archive'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/isaac_ros_dnn_image_encoder/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/lib:/workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib:/workspaces/isaac_ros-dev/install/isaac_ros_triton/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_centerpose/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_tensor_list_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_detection3_d_array_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_triton/lib:/workspaces/isaac_ros-dev/install/isaac_ros_centerpose/lib:/workspaces/isaac_ros-dev/install/isaac_ros_managed_nitros/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_sight/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_optimizer/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_messages/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_message_compositor/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_gxf_helpers/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_atlas/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_gems/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive/lib:/opt/hpcx/ucc/lib/:/opt/hpcx/ucx/lib/:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib'), ('NVIDIA_BUILD_ID', '107631419'), ('ROS_LOCALHOST_ONLY', '0'), ('OMPI_MCA_coll_hcoll_enable', '0'), ('OPAL_PREFIX', '/opt/hpcx/ompi'), ('CUDA_DRIVER_VERSION', '560.35.03'), ('TRANSFORMER_ENGINE_VERSION', '1.9'), ('_CUDA_COMPAT_PATH', '/usr/local/cuda/compat'), ('NVIDIA_REQUIRE_JETPACK_HOST_MOUNTS', ''), ('PATH', '/workspaces/isaac_ros-dev/install/isaac_ros_common/bin:/opt/ros/humble/bin:/opt/ros/humble/vcstool/scripts:/opt/tritonserver/bin:/usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ucx/bin'), ('TRITON_SERVER_USER', 'triton-server'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources,ignore:::setuptools.command.develop'), ('MOFED_VERSION', '5.4-rdmacore39.0'), ('TRTOSS_VERSION', '24.08'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('TF_ADJUST_HUE_FUSED', '1'), ('TF_ADJUST_SATURATION_FUSED', '1'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('UCX_MEM_EVENTS', 'no'), ('OLDPWD', '/workspaces/isaac_ros-dev'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.299887] (-) TimerEvent: {}
+[0.400391] (-) TimerEvent: {}
+[0.406626] (isaac_ros_centerpose) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.479899] (isaac_ros_centerpose) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.486981] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500505] (-) TimerEvent: {}
+[0.600953] (-) TimerEvent: {}
+[0.666994] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.677369] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.677803] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.678323] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.681909] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701085] (-) TimerEvent: {}
+[0.801439] (-) TimerEvent: {}
+[0.855555] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.862319] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.862540] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.862839] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.866886] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.901558] (-) TimerEvent: {}
+[1.001798] (-) TimerEvent: {}
+[1.102106] (-) TimerEvent: {}
+[1.202354] (-) TimerEvent: {}
+[1.302605] (-) TimerEvent: {}
+[1.358495] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.402790] (-) TimerEvent: {}
+[1.421564] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.502975] (-) TimerEvent: {}
+[1.544869] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Loading isaac_ros_common extras\n'}
+[1.545048] (isaac_ros_centerpose) StdoutLine: {'line': b'-- CMAKE_BUILD_TYPE: Release\n'}
+[1.566237] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.603103] (-) TimerEvent: {}
+[1.703475] (-) TimerEvent: {}
+[1.753201] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.753751] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.803606] (-) TimerEvent: {}
+[1.904059] (-) TimerEvent: {}
+[1.949617] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.950814] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.967291] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found version "12.6") \n'}
+[1.967650] (isaac_ros_centerpose) StdoutLine: {'line': b'-- CUDA architectures: 89;86;80;75;70\n'}
+[1.967800] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Loading isaac_ros_common extras (modules)\n'}
+[2.004184] (-) TimerEvent: {}
+[2.017525] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.024807] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.034840] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.047725] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.065613] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.104306] (-) TimerEvent: {}
+[2.115481] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.119900] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.204527] (-) TimerEvent: {}
+[2.247403] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.276861] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.304642] (-) TimerEvent: {}
+[2.329513] (isaac_ros_centerpose) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.391227] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Loading isaac_ros_gxf extras\n'}
+[2.404829] (-) TimerEvent: {}
+[2.505169] (-) TimerEvent: {}
+[2.605544] (-) TimerEvent: {}
+[2.705790] (-) TimerEvent: {}
+[2.806166] (-) TimerEvent: {}
+[2.906450] (-) TimerEvent: {}
+[2.914993] (isaac_ros_centerpose) StderrLine: {'line': b'\x1b[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/isaac_ros_centerpose` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.\x1b[0m\n'}
+[2.920161] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.980619] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Generating done\n'}
+[2.986461] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_centerpose\n'}
+[2.994458] (isaac_ros_centerpose) CommandEnded: {'returncode': 0}
+[2.995281] (isaac_ros_centerpose) JobProgress: {'identifier': 'isaac_ros_centerpose', 'progress': 'build'}
+[2.995947] (isaac_ros_centerpose) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/isaac_ros-dev/build/isaac_ros_centerpose', '--', '-j16', '-l16'], 'cwd': '/workspaces/isaac_ros-dev/build/isaac_ros_centerpose', 'env': OrderedDict([('NPP_VERSION', '12.3.1.23'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('DALI_BUILD', '16741769'), ('CUSOLVER_VERSION', '11.6.4.38'), ('CUBLAS_VERSION', '12.6.0.22'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', 'debian'), ('DCGM_VERSION', '3.2.6'), ('HOST_USER_GID', '1000'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=9.0'), ('CUFFT_VERSION', '11.2.6.28'), ('SSH_AUTH_SOCK', '/ssh-agent'), ('CUDA_CACHE_DISABLE', '1'), ('NCCL_VERSION', '2.22.3'), ('MODEL_OPT_VERSION', '0.15.0'), ('CUSPARSE_VERSION', '12.5.2.23'), ('ENV', '/etc/shinit_v2'), ('PWD', '/workspaces/isaac_ros-dev/build/isaac_ros_centerpose'), ('OPENUCX_VERSION', '1.17.0'), ('NSIGHT_SYSTEMS_VERSION', '2024.4.2.133'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('POLYGRAPHY_VERSION', '0.49.13'), ('ISAAC_ROS_WS', '/workspaces/isaac_ros-dev'), ('TF_ENABLE_WINOGRAD_NONFUSED', '1'), ('CUSPARSELT_VERSION', '0.6.2.3'), ('TRT_VERSION', '10.3.0.26+cuda12.5.1.007'), ('NVIDIA_PRODUCT_NAME', 'Triton Server'), ('RDMACORE_VERSION', '39.0'), ('HOME', '/root'), ('USERNAME', 'admin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '12.6.0.022'), ('CURAND_VERSION', '10.3.7.37'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_triton:/workspaces/isaac_ros-dev/install/gxf_isaac_triton:/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/gxf_isaac_tensorops:/workspaces/isaac_ros-dev/install/isaac_ros_centerpose:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt:/workspaces/isaac_ros-dev/install/isaac_ros_dnn_image_encoder:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc:/workspaces/isaac_ros-dev/install/isaac_ros_managed_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_tensor_list_type:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/gxf_isaac_centerpose:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_detection3_d_array_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt:/workspaces/isaac_ros-dev/install/gxf_isaac_sight:/workspaces/isaac_ros-dev/install/gxf_isaac_optimizer:/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_message_compositor:/workspaces/isaac_ros-dev/install/gxf_isaac_gxf_helpers:/workspaces/isaac_ros-dev/install/gxf_isaac_atlas:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/isaac_ros_dnn_image_encoder:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc:/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/isaac_ros_triton:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt:/workspaces/isaac_ros-dev/install/isaac_ros_managed_nitros:/workspaces/isaac_ros-dev/install/gxf_isaac_centerpose:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_tensor_list_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_detection3_d_array_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/gxf_isaac_tensorops:/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_gxf_helpers:/workspaces/isaac_ros-dev/install/gxf_isaac_atlas:/workspaces/isaac_ros-dev/install/gxf_isaac_triton:/workspaces/isaac_ros-dev/install/gxf_isaac_sight:/workspaces/isaac_ros-dev/install/gxf_isaac_optimizer:/workspaces/isaac_ros-dev/install/gxf_isaac_message_compositor:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_centerpose:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive:/workspaces/isaac_ros-dev/install/isaac_ros_test:/opt/ros/humble'), ('TCMALLOC_RELEASE_RATE', '200'), ('COLCON_PREFIX_PATH', '/workspaces/isaac_ros-dev/install'), ('CUTENSOR_VERSION', '2.0.2.5'), ('TRITON_SERVER_GPU_ENABLED', '1'), ('HPCX_VERSION', '2.19'), ('CUDA_VISIBLE_DEVICES', '0'), ('CUDNN_FRONTEND_VERSION', '1.5.2'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.10/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/local/lib/python3.10/dist-packages:/workspaces/isaac_ros-dev/install/isaac_ros_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/vcstool:/opt/tritonserver/backends/dali/wheel/dali'), ('COLCON', '1'), ('TERM', 'xterm'), ('TRITON_SERVER_VERSION', '2.49.0'), ('GDRCOPY_VERSION', '2.3.1-1'), ('HOST_USER_UID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'diego'), ('OPENMPI_VERSION', '4.1.7'), ('NVJPEG_VERSION', '12.3.3.23'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs:'), ('DISPLAY', ':1'), ('SHLVL', '1'), ('BASH_ENV', '/etc/bash.bashrc'), ('TRT_INC_PATH', '/usr/include/x86_64-linux-gnu'), ('TF_AUTOTUNE_THRESHOLD', '2'), ('CUDNN_VERSION', '9.3.0.75'), ('NSIGHT_COMPUTE_VERSION', '2024.3.0.15'), ('DALI_VERSION', '1.40.0'), ('NVIDIA_TRITON_SERVER_VERSION', '24.08'), ('TRT_LIB_PATH', '/usr/lib/x86_64-linux-gnu'), ('CUDSS_DIR', '/usr/local/libcudss-linux-0.3.0.9_cuda12-archive'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/isaac_ros_dnn_image_encoder/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/lib:/workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib:/workspaces/isaac_ros-dev/install/isaac_ros_triton/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_centerpose/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_tensor_list_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_detection3_d_array_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_triton/lib:/workspaces/isaac_ros-dev/install/isaac_ros_centerpose/lib:/workspaces/isaac_ros-dev/install/isaac_ros_managed_nitros/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_sight/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_optimizer/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_messages/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_message_compositor/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_gxf_helpers/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_atlas/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_gems/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive/lib:/opt/hpcx/ucc/lib/:/opt/hpcx/ucx/lib/:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib'), ('NVIDIA_BUILD_ID', '107631419'), ('ROS_LOCALHOST_ONLY', '0'), ('OMPI_MCA_coll_hcoll_enable', '0'), ('OPAL_PREFIX', '/opt/hpcx/ompi'), ('CUDA_DRIVER_VERSION', '560.35.03'), ('TRANSFORMER_ENGINE_VERSION', '1.9'), ('_CUDA_COMPAT_PATH', '/usr/local/cuda/compat'), ('NVIDIA_REQUIRE_JETPACK_HOST_MOUNTS', ''), ('PATH', '/workspaces/isaac_ros-dev/install/isaac_ros_common/bin:/opt/ros/humble/bin:/opt/ros/humble/vcstool/scripts:/opt/tritonserver/bin:/usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ucx/bin'), ('TRITON_SERVER_USER', 'triton-server'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources,ignore:::setuptools.command.develop'), ('MOFED_VERSION', '5.4-rdmacore39.0'), ('TRTOSS_VERSION', '24.08'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('TF_ADJUST_HUE_FUSED', '1'), ('TF_ADJUST_SATURATION_FUSED', '1'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('UCX_MEM_EVENTS', 'no'), ('OLDPWD', '/workspaces/isaac_ros-dev'), ('_', '/usr/bin/env')]), 'shell': False}
+[3.006555] (-) TimerEvent: {}
+[3.106876] (-) TimerEvent: {}
+[3.130869] (isaac_ros_centerpose) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/centerpose_decoder_node.dir/src/centerpose_decoder_node.cpp.o\x1b[0m\n'}
+[3.132013] (isaac_ros_centerpose) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating version information as YAML\x1b[0m\n'}
+[3.207092] (-) TimerEvent: {}
+[3.249811] (isaac_ros_centerpose) StdoutLine: {'line': b'[ 40%] Built target generate_version_info_target_isaac_ros_centerpose\n'}
+[3.307320] (-) TimerEvent: {}
+[3.407734] (-) TimerEvent: {}
+[3.508157] (-) TimerEvent: {}
+[3.608586] (-) TimerEvent: {}
+[3.708992] (-) TimerEvent: {}
+[3.809424] (-) TimerEvent: {}
+[3.909871] (-) TimerEvent: {}
+[4.010299] (-) TimerEvent: {}
+[4.110724] (-) TimerEvent: {}
+[4.211153] (-) TimerEvent: {}
+[4.311576] (-) TimerEvent: {}
+[4.412021] (-) TimerEvent: {}
+[4.512456] (-) TimerEvent: {}
+[4.612890] (-) TimerEvent: {}
+[4.713324] (-) TimerEvent: {}
+[4.813736] (-) TimerEvent: {}
+[4.914078] (-) TimerEvent: {}
+[5.014526] (-) TimerEvent: {}
+[5.114951] (-) TimerEvent: {}
+[5.215371] (-) TimerEvent: {}
+[5.315809] (-) TimerEvent: {}
+[5.416249] (-) TimerEvent: {}
+[5.516692] (-) TimerEvent: {}
+[5.617151] (-) TimerEvent: {}
+[5.717608] (-) TimerEvent: {}
+[5.818007] (-) TimerEvent: {}
+[5.918413] (-) TimerEvent: {}
+[6.018832] (-) TimerEvent: {}
+[6.119241] (-) TimerEvent: {}
+[6.219593] (-) TimerEvent: {}
+[6.320018] (-) TimerEvent: {}
+[6.420364] (-) TimerEvent: {}
+[6.520688] (-) TimerEvent: {}
+[6.621040] (-) TimerEvent: {}
+[6.721438] (-) TimerEvent: {}
+[6.821902] (-) TimerEvent: {}
+[6.922244] (-) TimerEvent: {}
+[7.022664] (-) TimerEvent: {}
+[7.123013] (-) TimerEvent: {}
+[7.223437] (-) TimerEvent: {}
+[7.323861] (-) TimerEvent: {}
+[7.424292] (-) TimerEvent: {}
+[7.524735] (-) TimerEvent: {}
+[7.625181] (-) TimerEvent: {}
+[7.725623] (-) TimerEvent: {}
+[7.826058] (-) TimerEvent: {}
+[7.926481] (-) TimerEvent: {}
+[8.026894] (-) TimerEvent: {}
+[8.127311] (-) TimerEvent: {}
+[8.227731] (-) TimerEvent: {}
+[8.328150] (-) TimerEvent: {}
+[8.428573] (-) TimerEvent: {}
+[8.528988] (-) TimerEvent: {}
+[8.629401] (-) TimerEvent: {}
+[8.729843] (-) TimerEvent: {}
+[8.830186] (-) TimerEvent: {}
+[8.930629] (-) TimerEvent: {}
+[9.031043] (-) TimerEvent: {}
+[9.131458] (-) TimerEvent: {}
+[9.231803] (-) TimerEvent: {}
+[9.332211] (-) TimerEvent: {}
+[9.432514] (-) TimerEvent: {}
+[9.532929] (-) TimerEvent: {}
+[9.633413] (-) TimerEvent: {}
+[9.733864] (-) TimerEvent: {}
+[9.834288] (-) TimerEvent: {}
+[9.934678] (-) TimerEvent: {}
+[10.035097] (-) TimerEvent: {}
+[10.135525] (-) TimerEvent: {}
+[10.235835] (-) TimerEvent: {}
+[10.336247] (-) TimerEvent: {}
+[10.436673] (-) TimerEvent: {}
+[10.537093] (-) TimerEvent: {}
+[10.637382] (-) TimerEvent: {}
+[10.737648] (-) TimerEvent: {}
+[10.837966] (-) TimerEvent: {}
+[10.938364] (-) TimerEvent: {}
+[11.038764] (-) TimerEvent: {}
+[11.139059] (-) TimerEvent: {}
+[11.239367] (-) TimerEvent: {}
+[11.339677] (-) TimerEvent: {}
+[11.440119] (-) TimerEvent: {}
+[11.540510] (-) TimerEvent: {}
+[11.640915] (-) TimerEvent: {}
+[11.741327] (-) TimerEvent: {}
+[11.841687] (-) TimerEvent: {}
+[11.942048] (-) TimerEvent: {}
+[12.042455] (-) TimerEvent: {}
+[12.142883] (-) TimerEvent: {}
+[12.243223] (-) TimerEvent: {}
+[12.343655] (-) TimerEvent: {}
+[12.444093] (-) TimerEvent: {}
+[12.544556] (-) TimerEvent: {}
+[12.644979] (-) TimerEvent: {}
+[12.745380] (-) TimerEvent: {}
+[12.845794] (-) TimerEvent: {}
+[12.946110] (-) TimerEvent: {}
+[13.046476] (-) TimerEvent: {}
+[13.146849] (-) TimerEvent: {}
+[13.247141] (-) TimerEvent: {}
+[13.347595] (-) TimerEvent: {}
+[13.447953] (-) TimerEvent: {}
+[13.548427] (-) TimerEvent: {}
+[13.654183] (-) TimerEvent: {}
+[13.754610] (-) TimerEvent: {}
+[13.855024] (-) TimerEvent: {}
+[13.955358] (-) TimerEvent: {}
+[14.055772] (-) TimerEvent: {}
+[14.156170] (-) TimerEvent: {}
+[14.256578] (-) TimerEvent: {}
+[14.356915] (-) TimerEvent: {}
+[14.457351] (-) TimerEvent: {}
+[14.557651] (-) TimerEvent: {}
+[14.658037] (-) TimerEvent: {}
+[14.758301] (-) TimerEvent: {}
+[14.858604] (-) TimerEvent: {}
+[14.958839] (-) TimerEvent: {}
+[15.059122] (-) TimerEvent: {}
+[15.159391] (-) TimerEvent: {}
+[15.259697] (-) TimerEvent: {}
+[15.360111] (-) TimerEvent: {}
+[15.460345] (-) TimerEvent: {}
+[15.560590] (-) TimerEvent: {}
+[15.660872] (-) TimerEvent: {}
+[15.761140] (-) TimerEvent: {}
+[15.861402] (-) TimerEvent: {}
+[15.961667] (-) TimerEvent: {}
+[16.061912] (-) TimerEvent: {}
+[16.162169] (-) TimerEvent: {}
+[16.262412] (-) TimerEvent: {}
+[16.362670] (-) TimerEvent: {}
+[16.463027] (-) TimerEvent: {}
+[16.563257] (-) TimerEvent: {}
+[16.663519] (-) TimerEvent: {}
+[16.763861] (-) TimerEvent: {}
+[16.864199] (-) TimerEvent: {}
+[16.964533] (-) TimerEvent: {}
+[17.064878] (-) TimerEvent: {}
+[17.165199] (-) TimerEvent: {}
+[17.265538] (-) TimerEvent: {}
+[17.365784] (-) TimerEvent: {}
+[17.466058] (-) TimerEvent: {}
+[17.566344] (-) TimerEvent: {}
+[17.666615] (-) TimerEvent: {}
+[17.766964] (-) TimerEvent: {}
+[17.867344] (-) TimerEvent: {}
+[17.967627] (-) TimerEvent: {}
+[18.068028] (-) TimerEvent: {}
+[18.168358] (-) TimerEvent: {}
+[18.268698] (-) TimerEvent: {}
+[18.369048] (-) TimerEvent: {}
+[18.469413] (-) TimerEvent: {}
+[18.569757] (-) TimerEvent: {}
+[18.670050] (-) TimerEvent: {}
+[18.770398] (-) TimerEvent: {}
+[18.870733] (-) TimerEvent: {}
+[18.971070] (-) TimerEvent: {}
+[19.071404] (-) TimerEvent: {}
+[19.171735] (-) TimerEvent: {}
+[19.272058] (-) TimerEvent: {}
+[19.372387] (-) TimerEvent: {}
+[19.472710] (-) TimerEvent: {}
+[19.573040] (-) TimerEvent: {}
+[19.673378] (-) TimerEvent: {}
+[19.773724] (-) TimerEvent: {}
+[19.874006] (-) TimerEvent: {}
+[19.974349] (-) TimerEvent: {}
+[20.074686] (-) TimerEvent: {}
+[20.175022] (-) TimerEvent: {}
+[20.275403] (-) TimerEvent: {}
+[20.375738] (-) TimerEvent: {}
+[20.476077] (-) TimerEvent: {}
+[20.576400] (-) TimerEvent: {}
+[20.676750] (-) TimerEvent: {}
+[20.777087] (-) TimerEvent: {}
+[20.877421] (-) TimerEvent: {}
+[20.977719] (-) TimerEvent: {}
+[21.078056] (-) TimerEvent: {}
+[21.178408] (-) TimerEvent: {}
+[21.278765] (-) TimerEvent: {}
+[21.379089] (-) TimerEvent: {}
+[21.479431] (-) TimerEvent: {}
+[21.579812] (-) TimerEvent: {}
+[21.680145] (-) TimerEvent: {}
+[21.780463] (-) TimerEvent: {}
+[21.880788] (-) TimerEvent: {}
+[21.981114] (-) TimerEvent: {}
+[22.081448] (-) TimerEvent: {}
+[22.181767] (-) TimerEvent: {}
+[22.282148] (-) TimerEvent: {}
+[22.382517] (-) TimerEvent: {}
+[22.482851] (-) TimerEvent: {}
+[22.583193] (-) TimerEvent: {}
+[22.683515] (-) TimerEvent: {}
+[22.783848] (-) TimerEvent: {}
+[22.884175] (-) TimerEvent: {}
+[22.984511] (-) TimerEvent: {}
+[23.031289] (isaac_ros_centerpose) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libcenterpose_decoder_node.so\x1b[0m\n'}
+[23.084723] (-) TimerEvent: {}
+[23.185071] (-) TimerEvent: {}
+[23.285332] (-) TimerEvent: {}
+[23.385677] (-) TimerEvent: {}
+[23.485948] (-) TimerEvent: {}
+[23.514679] (isaac_ros_centerpose) StdoutLine: {'line': b'[ 60%] Built target centerpose_decoder_node\n'}
+[23.586071] (-) TimerEvent: {}
+[23.634902] (isaac_ros_centerpose) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/centerpose_visualizer_node.dir/src/centerpose_visualizer_node.cpp.o\x1b[0m\n'}
+[23.686157] (-) TimerEvent: {}
+[23.786481] (-) TimerEvent: {}
+[23.886801] (-) TimerEvent: {}
+[23.987137] (-) TimerEvent: {}
+[24.087462] (-) TimerEvent: {}
+[24.187721] (-) TimerEvent: {}
+[24.288049] (-) TimerEvent: {}
+[24.388398] (-) TimerEvent: {}
+[24.488686] (-) TimerEvent: {}
+[24.589015] (-) TimerEvent: {}
+[24.689297] (-) TimerEvent: {}
+[24.789545] (-) TimerEvent: {}
+[24.889807] (-) TimerEvent: {}
+[24.990186] (-) TimerEvent: {}
+[25.090553] (-) TimerEvent: {}
+[25.190892] (-) TimerEvent: {}
+[25.291301] (-) TimerEvent: {}
+[25.391723] (-) TimerEvent: {}
+[25.492037] (-) TimerEvent: {}
+[25.592403] (-) TimerEvent: {}
+[25.692753] (-) TimerEvent: {}
+[25.793099] (-) TimerEvent: {}
+[25.893437] (-) TimerEvent: {}
+[25.993731] (-) TimerEvent: {}
+[26.094050] (-) TimerEvent: {}
+[26.194399] (-) TimerEvent: {}
+[26.294753] (-) TimerEvent: {}
+[26.395106] (-) TimerEvent: {}
+[26.495461] (-) TimerEvent: {}
+[26.595826] (-) TimerEvent: {}
+[26.696175] (-) TimerEvent: {}
+[26.796529] (-) TimerEvent: {}
+[26.896860] (-) TimerEvent: {}
+[26.997206] (-) TimerEvent: {}
+[27.097593] (-) TimerEvent: {}
+[27.197885] (-) TimerEvent: {}
+[27.298253] (-) TimerEvent: {}
+[27.398637] (-) TimerEvent: {}
+[27.498993] (-) TimerEvent: {}
+[27.599385] (-) TimerEvent: {}
+[27.699718] (-) TimerEvent: {}
+[27.800057] (-) TimerEvent: {}
+[27.900418] (-) TimerEvent: {}
+[28.000777] (-) TimerEvent: {}
+[28.101128] (-) TimerEvent: {}
+[28.201493] (-) TimerEvent: {}
+[28.301771] (-) TimerEvent: {}
+[28.402107] (-) TimerEvent: {}
+[28.503890] (-) TimerEvent: {}
+[28.604212] (-) TimerEvent: {}
+[28.704543] (-) TimerEvent: {}
+[28.804874] (-) TimerEvent: {}
+[28.905218] (-) TimerEvent: {}
+[29.005552] (-) TimerEvent: {}
+[29.105822] (-) TimerEvent: {}
+[29.206058] (-) TimerEvent: {}
+[29.306298] (-) TimerEvent: {}
+[29.406564] (-) TimerEvent: {}
+[29.506899] (-) TimerEvent: {}
+[29.607240] (-) TimerEvent: {}
+[29.707590] (-) TimerEvent: {}
+[29.807964] (-) TimerEvent: {}
+[29.908308] (-) TimerEvent: {}
+[30.008643] (-) TimerEvent: {}
+[30.108920] (-) TimerEvent: {}
+[30.209177] (-) TimerEvent: {}
+[30.309556] (-) TimerEvent: {}
+[30.409932] (-) TimerEvent: {}
+[30.510319] (-) TimerEvent: {}
+[30.610668] (-) TimerEvent: {}
+[30.711016] (-) TimerEvent: {}
+[30.811367] (-) TimerEvent: {}
+[30.911733] (-) TimerEvent: {}
+[31.012014] (-) TimerEvent: {}
+[31.112287] (-) TimerEvent: {}
+[31.212578] (-) TimerEvent: {}
+[31.312853] (-) TimerEvent: {}
+[31.413210] (-) TimerEvent: {}
+[31.513540] (-) TimerEvent: {}
+[31.613776] (-) TimerEvent: {}
+[31.714121] (-) TimerEvent: {}
+[31.814491] (-) TimerEvent: {}
+[31.914825] (-) TimerEvent: {}
+[32.015181] (-) TimerEvent: {}
+[32.115544] (-) TimerEvent: {}
+[32.215925] (-) TimerEvent: {}
+[32.316199] (-) TimerEvent: {}
+[32.416577] (-) TimerEvent: {}
+[32.516951] (-) TimerEvent: {}
+[32.617296] (-) TimerEvent: {}
+[32.717646] (-) TimerEvent: {}
+[32.818011] (-) TimerEvent: {}
+[32.918379] (-) TimerEvent: {}
+[33.018777] (-) TimerEvent: {}
+[33.119137] (-) TimerEvent: {}
+[33.219467] (-) TimerEvent: {}
+[33.319803] (-) TimerEvent: {}
+[33.420128] (-) TimerEvent: {}
+[33.520368] (-) TimerEvent: {}
+[33.620731] (-) TimerEvent: {}
+[33.721102] (-) TimerEvent: {}
+[33.821538] (-) TimerEvent: {}
+[33.921784] (-) TimerEvent: {}
+[34.022044] (-) TimerEvent: {}
+[34.122382] (-) TimerEvent: {}
+[34.222734] (-) TimerEvent: {}
+[34.322984] (-) TimerEvent: {}
+[34.423312] (-) TimerEvent: {}
+[34.523659] (-) TimerEvent: {}
+[34.624029] (-) TimerEvent: {}
+[34.724353] (-) TimerEvent: {}
+[34.824677] (-) TimerEvent: {}
+[34.925035] (-) TimerEvent: {}
+[35.025367] (-) TimerEvent: {}
+[35.125703] (-) TimerEvent: {}
+[35.226045] (-) TimerEvent: {}
+[35.326307] (-) TimerEvent: {}
+[35.426652] (-) TimerEvent: {}
+[35.527018] (-) TimerEvent: {}
+[35.627366] (-) TimerEvent: {}
+[35.727619] (-) TimerEvent: {}
+[35.827946] (-) TimerEvent: {}
+[35.928274] (-) TimerEvent: {}
+[36.028604] (-) TimerEvent: {}
+[36.128918] (-) TimerEvent: {}
+[36.229245] (-) TimerEvent: {}
+[36.329576] (-) TimerEvent: {}
+[36.429907] (-) TimerEvent: {}
+[36.530235] (-) TimerEvent: {}
+[36.630558] (-) TimerEvent: {}
+[36.730899] (-) TimerEvent: {}
+[36.831230] (-) TimerEvent: {}
+[36.931555] (-) TimerEvent: {}
+[37.031882] (-) TimerEvent: {}
+[37.132210] (-) TimerEvent: {}
+[37.232529] (-) TimerEvent: {}
+[37.332847] (-) TimerEvent: {}
+[37.433179] (-) TimerEvent: {}
+[37.533553] (-) TimerEvent: {}
+[37.633808] (-) TimerEvent: {}
+[37.734069] (-) TimerEvent: {}
+[37.834322] (-) TimerEvent: {}
+[37.934643] (-) TimerEvent: {}
+[38.034970] (-) TimerEvent: {}
+[38.135296] (-) TimerEvent: {}
+[38.235621] (-) TimerEvent: {}
+[38.335943] (-) TimerEvent: {}
+[38.436280] (-) TimerEvent: {}
+[38.536617] (-) TimerEvent: {}
+[38.636951] (-) TimerEvent: {}
+[38.737296] (-) TimerEvent: {}
+[38.837517] (-) TimerEvent: {}
+[38.937762] (-) TimerEvent: {}
+[39.038018] (-) TimerEvent: {}
+[39.138353] (-) TimerEvent: {}
+[39.238592] (-) TimerEvent: {}
+[39.338842] (-) TimerEvent: {}
+[39.439077] (-) TimerEvent: {}
+[39.539353] (-) TimerEvent: {}
+[39.639758] (-) TimerEvent: {}
+[39.740018] (-) TimerEvent: {}
+[39.841684] (-) TimerEvent: {}
+[39.942082] (-) TimerEvent: {}
+[40.044578] (-) TimerEvent: {}
+[40.144876] (-) TimerEvent: {}
+[40.245184] (-) TimerEvent: {}
+[40.345582] (-) TimerEvent: {}
+[40.445834] (-) TimerEvent: {}
+[40.546156] (-) TimerEvent: {}
+[40.646401] (-) TimerEvent: {}
+[40.746699] (-) TimerEvent: {}
+[40.846941] (-) TimerEvent: {}
+[40.947181] (-) TimerEvent: {}
+[41.047408] (-) TimerEvent: {}
+[41.147690] (-) TimerEvent: {}
+[41.248151] (-) TimerEvent: {}
+[41.348453] (-) TimerEvent: {}
+[41.448780] (-) TimerEvent: {}
+[41.549090] (-) TimerEvent: {}
+[41.649456] (-) TimerEvent: {}
+[41.749716] (-) TimerEvent: {}
+[41.849946] (-) TimerEvent: {}
+[41.950172] (-) TimerEvent: {}
+[42.050459] (-) TimerEvent: {}
+[42.150801] (-) TimerEvent: {}
+[42.251151] (-) TimerEvent: {}
+[42.351541] (-) TimerEvent: {}
+[42.451836] (-) TimerEvent: {}
+[42.552168] (-) TimerEvent: {}
+[42.652487] (-) TimerEvent: {}
+[42.752820] (-) TimerEvent: {}
+[42.853148] (-) TimerEvent: {}
+[42.953483] (-) TimerEvent: {}
+[43.053730] (-) TimerEvent: {}
+[43.154052] (-) TimerEvent: {}
+[43.254278] (-) TimerEvent: {}
+[43.354556] (-) TimerEvent: {}
+[43.454880] (-) TimerEvent: {}
+[43.555121] (-) TimerEvent: {}
+[43.655462] (-) TimerEvent: {}
+[43.755733] (-) TimerEvent: {}
+[43.855980] (-) TimerEvent: {}
+[43.956264] (-) TimerEvent: {}
+[44.056528] (-) TimerEvent: {}
+[44.156868] (-) TimerEvent: {}
+[44.257099] (-) TimerEvent: {}
+[44.357395] (-) TimerEvent: {}
+[44.457617] (-) TimerEvent: {}
+[44.557967] (-) TimerEvent: {}
+[44.658302] (-) TimerEvent: {}
+[44.758554] (-) TimerEvent: {}
+[44.858833] (-) TimerEvent: {}
+[44.959102] (-) TimerEvent: {}
+[45.059338] (-) TimerEvent: {}
+[45.159592] (-) TimerEvent: {}
+[45.259816] (-) TimerEvent: {}
+[45.360163] (-) TimerEvent: {}
+[45.460503] (-) TimerEvent: {}
+[45.560804] (-) TimerEvent: {}
+[45.661180] (-) TimerEvent: {}
+[45.761641] (-) TimerEvent: {}
+[45.779759] (isaac_ros_centerpose) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcenterpose_visualizer_node.so\x1b[0m\n'}
+[45.861736] (-) TimerEvent: {}
+[45.962008] (-) TimerEvent: {}
+[46.062355] (-) TimerEvent: {}
+[46.162730] (-) TimerEvent: {}
+[46.263081] (-) TimerEvent: {}
+[46.293599] (isaac_ros_centerpose) StdoutLine: {'line': b'[100%] Built target centerpose_visualizer_node\n'}
+[46.309461] (isaac_ros_centerpose) CommandEnded: {'returncode': 0}
+[46.310058] (isaac_ros_centerpose) JobProgress: {'identifier': 'isaac_ros_centerpose', 'progress': 'install'}
+[46.319530] (isaac_ros_centerpose) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/isaac_ros-dev/build/isaac_ros_centerpose'], 'cwd': '/workspaces/isaac_ros-dev/build/isaac_ros_centerpose', 'env': OrderedDict([('NPP_VERSION', '12.3.1.23'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('DALI_BUILD', '16741769'), ('CUSOLVER_VERSION', '11.6.4.38'), ('CUBLAS_VERSION', '12.6.0.22'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', 'debian'), ('DCGM_VERSION', '3.2.6'), ('HOST_USER_GID', '1000'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=9.0'), ('CUFFT_VERSION', '11.2.6.28'), ('SSH_AUTH_SOCK', '/ssh-agent'), ('CUDA_CACHE_DISABLE', '1'), ('NCCL_VERSION', '2.22.3'), ('MODEL_OPT_VERSION', '0.15.0'), ('CUSPARSE_VERSION', '12.5.2.23'), ('ENV', '/etc/shinit_v2'), ('PWD', '/workspaces/isaac_ros-dev/build/isaac_ros_centerpose'), ('OPENUCX_VERSION', '1.17.0'), ('NSIGHT_SYSTEMS_VERSION', '2024.4.2.133'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('POLYGRAPHY_VERSION', '0.49.13'), ('ISAAC_ROS_WS', '/workspaces/isaac_ros-dev'), ('TF_ENABLE_WINOGRAD_NONFUSED', '1'), ('CUSPARSELT_VERSION', '0.6.2.3'), ('TRT_VERSION', '10.3.0.26+cuda12.5.1.007'), ('NVIDIA_PRODUCT_NAME', 'Triton Server'), ('RDMACORE_VERSION', '39.0'), ('HOME', '/root'), ('USERNAME', 'admin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '12.6.0.022'), ('CURAND_VERSION', '10.3.7.37'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_triton:/workspaces/isaac_ros-dev/install/gxf_isaac_triton:/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/gxf_isaac_tensorops:/workspaces/isaac_ros-dev/install/isaac_ros_centerpose:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt:/workspaces/isaac_ros-dev/install/isaac_ros_dnn_image_encoder:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc:/workspaces/isaac_ros-dev/install/isaac_ros_managed_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_tensor_list_type:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/gxf_isaac_centerpose:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_detection3_d_array_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt:/workspaces/isaac_ros-dev/install/gxf_isaac_sight:/workspaces/isaac_ros-dev/install/gxf_isaac_optimizer:/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_message_compositor:/workspaces/isaac_ros-dev/install/gxf_isaac_gxf_helpers:/workspaces/isaac_ros-dev/install/gxf_isaac_atlas:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/isaac_ros_dnn_image_encoder:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc:/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/isaac_ros_triton:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt:/workspaces/isaac_ros-dev/install/isaac_ros_managed_nitros:/workspaces/isaac_ros-dev/install/gxf_isaac_centerpose:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_tensor_list_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_detection3_d_array_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/gxf_isaac_tensorops:/workspaces/isaac_ros-dev/install/gxf_isaac_messages:/workspaces/isaac_ros-dev/install/gxf_isaac_gxf_helpers:/workspaces/isaac_ros-dev/install/gxf_isaac_atlas:/workspaces/isaac_ros-dev/install/gxf_isaac_triton:/workspaces/isaac_ros-dev/install/gxf_isaac_sight:/workspaces/isaac_ros-dev/install/gxf_isaac_optimizer:/workspaces/isaac_ros-dev/install/gxf_isaac_message_compositor:/workspaces/isaac_ros-dev/install/gxf_isaac_gems:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_centerpose:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive:/workspaces/isaac_ros-dev/install/isaac_ros_test:/opt/ros/humble'), ('TCMALLOC_RELEASE_RATE', '200'), ('COLCON_PREFIX_PATH', '/workspaces/isaac_ros-dev/install'), ('CUTENSOR_VERSION', '2.0.2.5'), ('TRITON_SERVER_GPU_ENABLED', '1'), ('HPCX_VERSION', '2.19'), ('CUDA_VISIBLE_DEVICES', '0'), ('CUDNN_FRONTEND_VERSION', '1.5.2'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.10/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/local/lib/python3.10/dist-packages:/workspaces/isaac_ros-dev/install/isaac_ros_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/vcstool:/opt/tritonserver/backends/dali/wheel/dali'), ('COLCON', '1'), ('TERM', 'xterm'), ('TRITON_SERVER_VERSION', '2.49.0'), ('GDRCOPY_VERSION', '2.3.1-1'), ('HOST_USER_UID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'diego'), ('OPENMPI_VERSION', '4.1.7'), ('NVJPEG_VERSION', '12.3.3.23'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs:'), ('DISPLAY', ':1'), ('SHLVL', '1'), ('BASH_ENV', '/etc/bash.bashrc'), ('TRT_INC_PATH', '/usr/include/x86_64-linux-gnu'), ('TF_AUTOTUNE_THRESHOLD', '2'), ('CUDNN_VERSION', '9.3.0.75'), ('NSIGHT_COMPUTE_VERSION', '2024.3.0.15'), ('DALI_VERSION', '1.40.0'), ('NVIDIA_TRITON_SERVER_VERSION', '24.08'), ('TRT_LIB_PATH', '/usr/lib/x86_64-linux-gnu'), ('CUDSS_DIR', '/usr/local/libcudss-linux-0.3.0.9_cuda12-archive'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/isaac_ros_dnn_image_encoder/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_proc/lib:/workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib:/workspaces/isaac_ros-dev/install/isaac_ros_triton/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_rt/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_centerpose/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_tensor_list_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_detection3_d_array_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_tensor_rt/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_tensorops/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_triton/lib:/workspaces/isaac_ros-dev/install/isaac_ros_centerpose/lib:/workspaces/isaac_ros-dev/install/isaac_ros_managed_nitros/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_sight/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_optimizer/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_messages/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_message_compositor/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_gxf_helpers/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_atlas/lib:/workspaces/isaac_ros-dev/install/gxf_isaac_gems/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive/lib:/opt/hpcx/ucc/lib/:/opt/hpcx/ucx/lib/:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib'), ('NVIDIA_BUILD_ID', '107631419'), ('ROS_LOCALHOST_ONLY', '0'), ('OMPI_MCA_coll_hcoll_enable', '0'), ('OPAL_PREFIX', '/opt/hpcx/ompi'), ('CUDA_DRIVER_VERSION', '560.35.03'), ('TRANSFORMER_ENGINE_VERSION', '1.9'), ('_CUDA_COMPAT_PATH', '/usr/local/cuda/compat'), ('NVIDIA_REQUIRE_JETPACK_HOST_MOUNTS', ''), ('PATH', '/workspaces/isaac_ros-dev/install/isaac_ros_common/bin:/opt/ros/humble/bin:/opt/ros/humble/vcstool/scripts:/opt/tritonserver/bin:/usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ucx/bin'), ('TRITON_SERVER_USER', 'triton-server'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources,ignore:::setuptools.command.develop'), ('MOFED_VERSION', '5.4-rdmacore39.0'), ('TRTOSS_VERSION', '24.08'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('TF_ADJUST_HUE_FUSED', '1'), ('TF_ADJUST_SATURATION_FUSED', '1'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('UCX_MEM_EVENTS', 'no'), ('OLDPWD', '/workspaces/isaac_ros-dev'), ('_', '/usr/bin/env')]), 'shell': False}
+[46.329246] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[46.329773] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[46.329923] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/version_info.yaml\n'}
+[46.337124] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/include/isaac_ros_centerpose/centerpose_decoder_node.hpp\n'}
+[46.344802] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/include/isaac_ros_centerpose/centerpose_visualizer_node.hpp\n'}
+[46.352419] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/environment/library_path.sh\n'}
+[46.363233] (-) TimerEvent: {}
+[46.363709] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/environment/library_path.dsv\n'}
+[46.379387] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/lib/libcenterpose_decoder_node.so\n'}
+[46.393365] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/lib/libcenterpose_visualizer_node.so\n'}
+[46.404901] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/config/centerpose_node.yaml\n'}
+[46.419782] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/config/centerpose_visualizer_node.yaml\n'}
+[46.428213] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/launch/isaac_ros_centerpose_core.launch.py\n'}
+[46.435515] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/launch/isaac_ros_centerpose_tensor_rt.launch.py\n'}
+[46.442572] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/launch/isaac_ros_centerpose_triton.launch.py\n'}
+[46.452976] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/launch/isaac_ros_centerpose_visualizer_core.launch.py\n'}
+[46.463335] (-) TimerEvent: {}
+[46.464251] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/ament_index/resource_index/package_run_dependencies/isaac_ros_centerpose\n'}
+[46.474123] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/ament_index/resource_index/parent_prefix_path/isaac_ros_centerpose\n'}
+[46.483509] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/environment/ament_prefix_path.sh\n'}
+[46.492203] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/environment/ament_prefix_path.dsv\n'}
+[46.504626] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/environment/path.sh\n'}
+[46.520090] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/environment/path.dsv\n'}
+[46.536472] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/local_setup.bash\n'}
+[46.549540] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/local_setup.sh\n'}
+[46.561488] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/local_setup.zsh\n'}
+[46.563434] (-) TimerEvent: {}
+[46.572475] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/local_setup.dsv\n'}
+[46.581902] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/package.dsv\n'}
+[46.592823] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/ament_index/resource_index/packages/isaac_ros_centerpose\n'}
+[46.603744] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/ament_index/resource_index/rclcpp_components/isaac_ros_centerpose\n'}
+[46.616278] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[46.626577] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[46.638460] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[46.648712] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/cmake/isaac_ros_centerposeConfig.cmake\n'}
+[46.657542] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/cmake/isaac_ros_centerposeConfig-version.cmake\n'}
+[46.663527] (-) TimerEvent: {}
+[46.668543] (isaac_ros_centerpose) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_centerpose/share/isaac_ros_centerpose/package.xml\n'}
+[46.680636] (isaac_ros_centerpose) CommandEnded: {'returncode': 0}
+[46.701345] (isaac_ros_centerpose) JobEnded: {'identifier': 'isaac_ros_centerpose', 'rc': 0}
+[46.702153] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+source;share/isaac_ros_tensor_rt/environment/ament_prefix_path.sh
+source;share/isaac_ros_tensor_rt/environment/library_path.sh
+source;share/isaac_ros_tensor_rt/environment/path.sh

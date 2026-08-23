@@ -1,0 +1,135 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- The CUDA compiler identification is NVIDIA 12.6.20
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Loading isaac_ros_common extras
+-- CMAKE_BUILD_TYPE: Release
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found CUDA: /usr/local/cuda (found version "12.6") 
+-- CUDA architectures: 52
+-- Loading isaac_ros_common extras (modules)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Loading isaac_ros_gxf extras
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_image_proc
+[  5%] [34m[1mGenerating version information as YAML[0m
+[ 11%] [32mBuilding CUDA object CMakeFiles/alpha_blend_node.dir/src/alpha_blend.cu.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/alpha_blend_node.dir/src/alpha_blend_node.cpp.o[0m
+[ 16%] Built target generate_version_info_target_isaac_ros_image_proc
+[ 22%] [32m[1mLinking CXX shared library libalpha_blend_node.so[0m
+[ 22%] Built target alpha_blend_node
+[ 27%] [32mBuilding CXX object CMakeFiles/image_format_converter_node.dir/src/image_format_converter_node.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library libimage_format_converter_node.so[0m
+[ 33%] Built target image_format_converter_node
+[ 38%] [32mBuilding CXX object CMakeFiles/rectify_node.dir/src/rectify_node.cpp.o[0m
+[ 44%] [32m[1mLinking CXX shared library librectify_node.so[0m
+[ 44%] Built target rectify_node
+[ 50%] [32mBuilding CXX object CMakeFiles/resize_node.dir/src/resize_node.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library libresize_node.so[0m
+[ 55%] Built target resize_node
+[ 61%] [32mBuilding CXX object CMakeFiles/flip_node.dir/src/image_flip_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libflip_node.so[0m
+[ 66%] Built target flip_node
+[ 72%] [32mBuilding CXX object CMakeFiles/crop_node.dir/src/crop_node.cpp.o[0m
+[ 77%] [32m[1mLinking CXX shared library libcrop_node.so[0m
+[ 77%] Built target crop_node
+[ 83%] [32mBuilding CXX object CMakeFiles/pad_node.dir/src/pad_node.cpp.o[0m
+[ 88%] [32m[1mLinking CXX shared library libpad_node.so[0m
+[ 88%] Built target pad_node
+[ 94%] [32mBuilding CXX object CMakeFiles/image_normalize_node.dir/src/image_normalize_node.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libimage_normalize_node.so[0m
+[100%] Built target image_normalize_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/version_info.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/isaac_ros_image_proc/alpha_blend.cu.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/isaac_ros_image_proc/alpha_blend_node.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/isaac_ros_image_proc/crop_node.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/isaac_ros_image_proc/image_flip_node.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/isaac_ros_image_proc/image_format_converter_node.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/isaac_ros_image_proc/image_normalize_node.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/isaac_ros_image_proc/pad_node.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/isaac_ros_image_proc/rectify_node.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/isaac_ros_image_proc/resize_node.hpp
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/environment/library_path.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/environment/library_path.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/libalpha_blend_node.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/libimage_format_converter_node.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/librectify_node.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/libresize_node.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/libflip_node.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/libcrop_node.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/libpad_node.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/libimage_normalize_node.so
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/launch/isaac_ros_image_color_conversion.launch.py
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/launch/isaac_ros_image_color_conversion_core.launch.py
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/launch/isaac_ros_image_crop.launch.py
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/launch/isaac_ros_image_crop_core.launch.py
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/launch/isaac_ros_image_flip.launch.py
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/launch/isaac_ros_image_flip_core.launch.py
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/launch/isaac_ros_image_rectify.launch.py
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/launch/isaac_ros_image_rectify_mono_core.launch.py
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/launch/isaac_ros_image_rectify_stereo_core.launch.py
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/launch/isaac_ros_image_resize.launch.py
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/launch/isaac_ros_image_resize_core.launch.py
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/launch/isaac_ros_image_resize_rectify_stereo_core.launch.py
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/isaac_ros_image_proc_namespace_injector_rule.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/namespace_injector_rule_crop.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/namespace_injector_rule_image_format_converter.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/namespace_injector_rule_rectify.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/nitros_crop_node.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/nitros_image_flip_node.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/nitros_image_format_converter_node.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/nitros_rectify_node.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/nitros_resize_node.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/resize_substitution_rule.yaml
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/ament_index/resource_index/package_run_dependencies/isaac_ros_image_proc
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/ament_index/resource_index/parent_prefix_path/isaac_ros_image_proc
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/environment/path.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/environment/path.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/local_setup.bash
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/local_setup.sh
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/local_setup.zsh
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/local_setup.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/package.dsv
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/ament_index/resource_index/packages/isaac_ros_image_proc
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/ament_index/resource_index/rclcpp_components/isaac_ros_image_proc
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/cmake/isaac_ros_image_procConfig.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/cmake/isaac_ros_image_procConfig-version.cmake
+-- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/package.xml

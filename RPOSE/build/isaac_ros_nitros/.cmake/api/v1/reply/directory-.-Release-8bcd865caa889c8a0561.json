@@ -1,0 +1,131 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_install",
+			"include",
+			"find_package"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_symlink_install-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake",
+			"/opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake",
+			"/opt/ros/humble/share/ament_cmake_auto/cmake/ament_cmake_auto-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_auto/cmake/ament_cmake_autoConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"file" : 7,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 41,
+				"parent" : 3
+			},
+			{
+				"file" : 6,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 17,
+				"parent" : 5
+			},
+			{
+				"file" : 5,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 7
+			},
+			{
+				"file" : 4,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 15,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 41,
+				"parent" : 11
+			},
+			{
+				"file" : 2,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 47,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 14
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/isaac_ros_nitros",
+			"paths" : 
+			[
+				"scripts/diagnostic_viewer.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"scriptFile" : "/workspaces/isaac_ros-dev/build/isaac_ros_nitros/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake",
+			"type" : "script"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

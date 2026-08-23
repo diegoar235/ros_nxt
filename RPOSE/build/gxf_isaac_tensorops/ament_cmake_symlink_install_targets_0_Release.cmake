@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspaces/isaac_ros-dev/build/gxf_isaac_tensorops/libgxf_isaac_tensorops.so" "TARGETS" "gxf_isaac_tensorops" "DESTINATION" "share/gxf_isaac_tensorops/gxf/lib")

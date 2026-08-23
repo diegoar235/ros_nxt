@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-8050c2c8d43ba4b04828.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "isaac_ros_tensor_proc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_version_info_target_isaac_ros_tensor_proc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_version_info_target_isaac_ros_tensor_proc-Release-4fb47c169e289fd433bf.json",
+					"name" : "generate_version_info_target_isaac_ros_tensor_proc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_tensor_normalize_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_tensor_normalize_node-Release-560f3cbaf8550693b938.json",
+					"name" : "image_tensor_normalize_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_to_tensor_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_to_tensor_node-Release-18ce297a969d9fc8dabc.json",
+					"name" : "image_to_tensor_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interleaved_to_planar_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interleaved_to_planar_node-Release-2933b460e9b2c1e76575.json",
+					"name" : "interleaved_to_planar_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isaac_ros_tensor_proc_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isaac_ros_tensor_proc_uninstall-Release-458f72e78b2256a80483.json",
+					"name" : "isaac_ros_tensor_proc_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "normalize_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-normalize_node-Release-769df9ef642911942d02.json",
+					"name" : "normalize_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reshape_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reshape_node-Release-699d318f171493e28e61.json",
+					"name" : "reshape_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-d062d0c180338c2fd418.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/isaac_ros-dev/build/isaac_ros_tensor_proc",
+		"source" : "/workspaces/isaac_ros-dev/src/isaac_ros_dnn_inference/isaac_ros_tensor_proc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

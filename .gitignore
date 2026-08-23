@@ -1,0 +1,18 @@
+# Archivos de configuración local (¡No subir!)
+.env
+
+# Carpetas de compilación de colcon (ROS 2)
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Archivos temporales de permisos gráficos y de sistema
+/tmp/.docker.xauth
+*.swp
+*~
+.DS_Store
+core
+core.*
+*.onnx
+*.plan
+*.engine
